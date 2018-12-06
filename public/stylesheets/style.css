@@ -10,4 +10,100 @@ a {
 .navbar {
   margin-left: 0;
   margin-right: 0;
+  margin-top: 0;
+  height: 150px;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1.1em;
+  margin-left: 1.5em;
+  color: #000;
+}
+
+.home-skyline {
+  background-image: url("../images/skyline.jpg");
+  height: 800px;
+  min-width: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-largest-skyline-text {
+  text-align: center;
+  padding-top: 12%;
+  font-size: 5em;
+  color: #222933;
+}
+
+.home-smaller-skyline-text {
+  text-align: center;
+  padding-top: 3%;
+  font-size: 3em;
+  color: #222933;
+}
+
+.landing-skyline-button {
+  margin-left: 42%;
+  margin-right: 42%;
+  margin-top: 5%;
+  font-size: 1.3em;
+  padding: 1%;
+  background-color:  #fff0db;
+  border: 1% solid  #fff0db;
+}
+
+.first-home-banner {
+  width: 100%;
+  max-height: 100%;
+}
+
+.we-statements {
+  text-align: center;
+}
+
+.we-statements-button {
+  padding: 0.5%;
+  margin: 3%;
+  font-size: 1.5em;
+  background-color: #6c6479;
+}
+
+.home-join-us {
+  background-image: url("../images/home-join-us.jpg");
+  height: 900px;
+  min-width: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.join-us-text {
+  color:#fff;
+  text-align: center;
+  font-size: 8em;
+  padding-top: 20%;
+}
+
+.home-roles {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+.home-snapshots {
+  margin-top: 2em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.join-us-button {
+  background-color: #6c6479;
+  font-size: 1em;
+  padding: 0.75%;
+  margin-top: 3%;
 }
