@@ -7,6 +7,11 @@ a {
   color: #00B7FF;
 }
 
+div {
+  margin-left: -3.7em;
+  padding:0px;
+}
+
 .navbar {
   margin-left: 0;
   margin-right: 0;
@@ -23,13 +28,12 @@ a {
 
 .parallax {
   height: 800px;
-  width: 100%; 
+  width: 106%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px;
-  padding:0px;
+  
 }
 
 .home-skyline {
@@ -111,5 +115,5 @@ a {
   color:#fff;
   text-align: center;
   font-size: 8em;
-  padding-top: 20%;
+  padding-top: 15%;
 }
