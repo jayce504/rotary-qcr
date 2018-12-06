@@ -21,38 +21,31 @@ a {
   color: #000;
 }
 
-.home-skyline {
-  background-image: url("../images/skyline.jpg");
+.parallax {
   height: 800px;
-  min-width: 100%; 
+  width: 100%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0px;
+  padding:0px;
 }
 
-.home-largest-skyline-text {
-  text-align: center;
-  padding-top: 12%;
-  font-size: 5em;
-  color: #222933;
+.home-skyline {
+  background-image: url("../images/skyline.jpg");
 }
 
-.home-smaller-skyline-text {
+#skyline-small-text {
   text-align: center;
   padding-top: 3%;
   font-size: 3em;
-  color: #222933;
+  color: #fff;
 }
 
-.landing-skyline-button {
-  margin-left: 42%;
-  margin-right: 42%;
-  margin-top: 5%;
-  font-size: 1.3em;
-  padding: 1%;
-  background-color:  #fff0db;
-  border: 1% solid  #fff0db;
+#skyline-button {
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 .first-home-banner {
@@ -64,7 +57,7 @@ a {
   text-align: center;
 }
 
-.we-statements-button {
+.home-button {
   padding: 0.5%;
   margin: 3%;
   font-size: 1.5em;
@@ -73,19 +66,6 @@ a {
 
 .home-join-us {
   background-image: url("../images/home-join-us.jpg");
-  height: 900px;
-  min-width: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.join-us-text {
-  color:#fff;
-  text-align: center;
-  font-size: 8em;
-  padding-top: 20%;
 }
 
 .home-roles {
@@ -101,9 +81,35 @@ a {
   text-align: center;
 }
 
-.join-us-button {
+.big-image-button {
   background-color: #6c6479;
   font-size: 1em;
   padding: 0.75%;
   margin-top: 3%;
+}
+
+.lunch-image {
+  background-image: url("../images/lunch.jpg");
+}
+
+.get-involved-home {
+  background-image: url('../images/get-involved.jpg')
+}
+
+#join-us-button {
+  margin-left:47%;
+}
+
+.centered-home-text {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+.big-image-text {
+  color:#fff;
+  text-align: center;
+  font-size: 8em;
+  padding-top: 20%;
 }
