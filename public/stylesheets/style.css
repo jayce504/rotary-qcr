@@ -27,17 +27,61 @@ div {
 }
 
 .parallax {
-  height: 800px;
+  height: 1080px;
   width: 106%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+}
+
+.text-div {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-div {
+  text-align: center;
+  padding: 1%;
+  background-color: blanchedalmond;
+  width: 106%;
+  bottom: 0;
 }
 
 .home-skyline {
   background-image: url("../images/skyline.jpg");
+}
+
+.ariel-charlotte {
+  background-image: url("../images/ariel-charlotte.jpg");
+}
+
+.golden-gate {
+  background-image: url("../images/golden-gate.jpg");
+}
+
+.disaster {
+  background-image: url('../images/disaster.jpg');
+}
+
+.service {
+  background-image: url('../images/service.jpg');
+}
+
+.manhattan {
+  background-image: url('../images/manhattan.jpg');
+}
+
+.donate {
+  width: 30%;
+  height: 30%;
+}
+
+#ariel-charlotte-text {
+color:#fff;;
+text-align: center;
+padding-top: 1%;
+font-size: 3em;
 }
 
 #skyline-small-text {

@@ -6,6 +6,11 @@ router.get('/', function(req, res, next) {
   res.render('home', { title: 'Queen City Rotary' });
 });
 
+
+router.get('/club', function(req, res, next) {
+  res.render('club', { title: 'Service' });
+});
+
 router.get('/service', function(req, res, next) {
   res.render('service', { title: 'Service' });
 });
