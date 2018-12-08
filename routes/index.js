@@ -23,4 +23,7 @@ router.get('/members', function(req, res, next) {
   res.render('members', { title: 'Members' });
 });
 
+router.get('/resources', function(req, res, next) {
+  res.render('resources', { title: 'Members' });
+});
 module.exports = router;

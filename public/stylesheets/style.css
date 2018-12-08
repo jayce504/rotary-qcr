@@ -80,6 +80,16 @@ div {
   background-image: url('../images/event.jpg');
 }
 
+.resources {
+  background-image: url('../images/resources.jpg');
+}
+
+#resources-small-text {
+  text-align: center;
+  color: #000;
+  margin-top: 3%;
+}
+
 .donate {
   width: 30%;
   height: 30%;
@@ -116,6 +126,7 @@ font-size: 3em;
 .home-button {
   padding: 0.5%;
   margin: 3%;
+  margin-left: 0%;
   font-size: 1.5em;
   background-color: #6c6479;
 }
@@ -153,7 +164,7 @@ font-size: 3em;
 }
 
 #join-us-button {
-  margin-left:44%;
+  margin-left:47%;
 }
 
 .centered-home-text {
@@ -167,5 +178,5 @@ font-size: 3em;
   color:#fff;
   text-align: center;
   font-size: 8em;
-  padding-top: 15%;
+  padding-top: 20%;
 }
