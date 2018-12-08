@@ -72,6 +72,14 @@ div {
   background-image: url('../images/manhattan.jpg');
 }
 
+.speaker {
+  background-image: url('../images/speaker.jpg');
+}
+
+.event {
+  background-image: url('../images/event.jpg');
+}
+
 .donate {
   width: 30%;
   height: 30%;
@@ -145,7 +153,7 @@ font-size: 3em;
 }
 
 #join-us-button {
-  margin-left:47%;
+  margin-left:44%;
 }
 
 .centered-home-text {
