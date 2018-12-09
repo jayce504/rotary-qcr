@@ -1,0 +1,26 @@
+<html>
+<head>
+  <%- include partials/header.ejs %>
+</head>
+<body>
+    <div class="more-info-heading">
+        <h2>Reach Out</h2>
+        <h5>Want to know more? Just Ask.</h5>
+    </div>
+    <form action="/send-email" method="post">
+        <div class="form-group more-info-form">
+          <input type="string" class="form-control" id="name" placeholder="Name" name="name" required>
+          <input type="string" class="form-control" id="address" placeholder="Address" name="address" required>
+          <input type="string" class="form-control" id="phoneNumber" placeholder="Phone Number" name="phoneNumber" required>
+          <input type="email" class="form-control" id="email" placeholder="Email Address" name="email" required>
+          <!-- <select name="interest" class="form-control" placeholder="Type of Interest" id="interest" required>
+            <option value="Type of Interest">Desired Role</option>
+            <option value="Student">Student</option>
+            <option value="Host">Host</option>
+          </select> -->
+        </div>
+          <button type="submit" class="btn more-info-button">Submit</button>
+      </form>
+</body>
+<%- include partials/footer.ejs %>
+</html>
