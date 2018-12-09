@@ -46,7 +46,7 @@ router.post('/send-email', function (req, res) {
          from: req.body.name, // sender address
          to: "info@queencityrotary7680.org", // list of receivers
          subject: 'Request For More information', // Subject line
-         html: '<b>'+req.body.name+'</b>'+' would like more information regarding the Rotary Youth Exchange. '+
+         html: '<b>'+req.body.name+'</b>'+' would like more information regarding Queen City Rotary. '+
           'Their information is below: <br><br>'+
               '<b>Name: </b>'+req.body.name+'<br>'+
               '<b>Address: </b>'+req.body.address+'<br>'+
