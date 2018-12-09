@@ -134,7 +134,7 @@ font-size: 3em;
 .home-button {
   padding: 1%;
   margin: 3%;
-  margin-left: 5%;
+  margin-left: 3%;
   font-size: 1.3em;
   background-color: #eda03c;
   border: solid 0.05em #eda03c;
@@ -147,8 +147,8 @@ font-size: 3em;
 .home-roles {
   text-align: center;
   font-size: 1.2em;
-  padding: 0.5em;
-  margin-top: 1em;
+  padding-top: 1em;
+  margin-right: 5%;
 }
 
 .home-snapshots {
