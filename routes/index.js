@@ -50,7 +50,8 @@ router.post('/send-email', function (req, res) {
           'Their information is below: <br><br>'+
               '<b>Name: </b>'+req.body.name+'<br>'+
               '<b>Address: </b>'+req.body.address+'<br>'+
-              '<b>Phone Number: </b>'+req.body.phoneNumber+'<br>'
+              '<b>Phone Number: </b>'+req.body.phoneNumber+'<br>'+
+              '<b>Email: </b>'+req.body.email+'<br>'
      };
 
      transporter.sendMail(mailOptions, (error, info) => {
@@ -62,6 +63,7 @@ router.post('/send-email', function (req, res) {
          });
       res.redirect('thanks');
      });
+
   router.get('/thanks', function(req, res, next) {
     res.render('thanks', { title: 'Express' });
    });
