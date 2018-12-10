@@ -35,6 +35,15 @@ div {
 
 .parallax {
   height: 1080px;
+  max-width: 109%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-min {
+  height: 700px;
   width: 109%;
   background-attachment: fixed;
   background-position: center;
@@ -90,6 +99,10 @@ div {
 
 .resources {
   background-image: url('../images/resources.jpg');
+}
+
+.leadership {
+  background-image: url('../images/leadership.jpeg');
 }
 
 #resources-small-text {
@@ -188,6 +201,17 @@ font-size: 3em;
   text-align: center;
   font-size: 550%;
   padding-top: 20%;
+}
+
+.officer-div {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#kristen-pic {
+  width: 60%;
+  height: 60%;
 }
 
 .more-info-heading {

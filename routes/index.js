@@ -69,8 +69,12 @@ router.post('/send-email', function (req, res) {
    });
 
    router.get('/thanks', function(req, res, next) {
-     res.render('thanks', { title: 'Members' });
+     res.render('thanks', { title: 'thanks' });
    });
 
 
 module.exports = router;
+
+router.get('/officers', function(req, res, next) {
+  res.render('officers', { title: 'Officers' });
+});
