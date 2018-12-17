@@ -19,24 +19,38 @@ div {
   width: 109%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 25%;
+}
+
 .navbar {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  margin-bottom: 1%;
-  height: 45px;
+  margin-bottom: 2%;
+  height: 100px;
+  padding-top: 2%;
+  margin-left: -50px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
   width: 100%;
+  background-color: #fff;
 }
 
 .nav-link {
   font-size: 1.1em;
-  margin-left: 1.5em;
+  margin-left: 4.6em;
   color: #000;
 }
 
 .parallax {
   height: 1080px;
-  max-width: 109%;
+  width: 109%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,11 +59,150 @@ div {
 
 .parallax-min {
   height: 700px;
-  width: 109%;
+  max-width: 109%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+
+  div {
+    margin-left: -0.5em;
+  }
+
+  #home-skyline {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #first-home-banner {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #we-statements{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #home-join-us{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #lunch-image {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #centered-home-text {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #get-involved-home {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #home-join-us-button {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+
+  .footer-div {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+
+  #home-snapshots {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+
+  #more-info-heading {
+      text-align: center;
+      margin-top: 5em;
+      border: 0.25em solid #2c4e9f;
+      padding: 3em;
+      color: #f6b448;
+      background-color: #2c4e9f;
+    }
+
+  #more-info-button {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      margin-left: 3.5em;
+      font-size: 1.5em;
+      margin-bottom: 3%;
+      background-color: #2c4e9f;
+      color: #f6b448;
+    }
+
+    #form-control {
+      margin-top: 3%;
+      margin-right: 2%;
+      text-align: left;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    #more-info-form {
+      padding-top: 4%;
+      padding-bottom: 5%;
+      background-color: #fff;
+    }
+
+    #home-button {
+      margin-left: 2em;
+      margin-top: 1.5em;
+      padding: 0.5em;
+      font-size: 7vw;
+    }
 }
 
 .text-div {
@@ -63,10 +216,9 @@ div {
   width: 109%;
   padding-bottom: 3%;
   margin-bottom: -32000px;
-
 }
 
-.home-skyline {
+#home-skyline {
   background-image: url("../images/skyline.jpg");
 }
 
@@ -136,36 +288,37 @@ font-size: 3em;
   margin-right: 40%;
 }
 
-.first-home-banner {
+#first-home-banner {
   width: 100%;
   max-height: 100%;
+  margin-top: -20em;
 }
 
-.we-statements {
+#we-statements {
   text-align: center;
 }
 
 .home-button {
   padding: 1%;
   margin: 3%;
-  margin-left: 3%;
-  font-size: 1.3em;
+  margin-left: 21em;
+  font-size: 2vw;
   background-color: #eda03c;
   border: solid 0.05em #eda03c;
 }
 
-.home-join-us {
+#home-join-us {
   background-image: url("../images/home-join-us.jpg");
 }
 
 .home-roles {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2vw;
   padding-top: 1em;
   margin-right: 5%;
 }
 
-.home-snapshots {
+#home-snapshots {
   margin-top: 2em;
   font-size: 2em;
   text-align: center;
@@ -178,11 +331,11 @@ font-size: 3em;
   margin-top: 3%;
 }
 
-.lunch-image {
+#lunch-image {
   background-image: url("../images/lunch.jpg");
 }
 
-.get-involved-home {
+#get-involved-home {
   background-image: url('../images/get-involved.jpg')
 }
 
@@ -198,7 +351,7 @@ font-size: 3em;
   margin-left: 46%;
 }
 
-.centered-home-text {
+#centered-home-text {
   text-align: center;
   font-size: 1.2em;
   padding: 0.5em;
@@ -245,7 +398,7 @@ font-size: 3em;
   padding-right: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin-left: 45%;
+  margin-left: 4%;
   margin-bottom: 3%;
   background-color: #2c4e9f;
   color: #f6b448;
@@ -264,4 +417,13 @@ font-size: 3em;
   border: 0.05em solid #000;
   background-color: #fff;
   text-align: center;
+}
+
+.footer-button {
+  margin-left: 28em;
+  padding: 1%;
+  margin: 3%;
+  font-size: 2vw;
+  background-color: #eda03c;
+  border: solid 0.05em #eda03c;
 }

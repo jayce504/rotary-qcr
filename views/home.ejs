@@ -6,34 +6,40 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <div class="home-skyline parallax">
+    <picture style="width:3vw; height:1.5vw;" >
+      <source srcset="../images/QCRRotary.jpeg" media="(max-width: 600px)">
+      <!-- <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+      <source srcset="flowers.jpg">
+      <img src="img_smallflower.jpg" alt="Flowers"> -->
+    </picture>
+    <div class="parallax" id="home-skyline">
       <p class='big-image-text'>The Parallax Effect Isn't Special</p>
       <p class='big-image-text' id='skyline-small-text'>Mimicking overhyped websites since about a week ago</p>
       <button class='home-button' id='skyline-button'><a href='/contact'>We Won't Bribe You With Food</a></button>
     </div>
     <div>
-        <img class='first-home-banner' src="../images/together-we-are.jpg">
+        <img id='first-home-banner' src="../images/together-we-are.jpg">
     </div>
     <hr>
-    <div class="we-statements">
+    <div id="we-statements">
       <h1>We are <b>DRIVEN</b> by an utter disdain for poor communication</h1>
       <h1>We <b>BRING</b> our own food (by choice)</h1>
       <h1>We <b>DON'T</b> force you to meet every week</h1>
       <p><i>-The guy who made this site</i></p>
       <button class="home-button">Our Club</button>
     </div>
-    <div class='parallax home-join-us'>
+    <div class='parallax' id='home-join-us'>
       <p class='big-image-text'>Join Us</p>
     </div>
-    <div class='home-snapshots'>
+    <div id='home-snapshots'>
       <p>Roles | Go | Here</p>
       <p>Tons of images will go here at some point</p>
-      <button class='home-button'><a href='/contact'>Join Us</a></button>
+      <button class='home-button' id='home-join-us-button'><a href='/contact'>Join Us</a></button>
     </div>
-    <div class='parallax lunch-image'>
+    <div class='parallax' id='lunch-image'>
         <p class='big-image-text'>Let's Meet (food is optional)</p>
     </div>
-    <div class='centered-home-text'>
+    <div id='centered-home-text'>
       <p>Want a work break?</p>
       <p><b>Then ask your employer for a more flexible work schedule</b></p>
       <p>(Employee rights matter!)</p>
@@ -41,9 +47,9 @@
     <div class='centered-home-text' id='address_and_time'>
       <p>Address Here</p>
       <p>Time Here</p>
-      <button class='home-button'><a href='/contact'>SIGN UP TO MEET US (BYOF)</a></button>
+      <button class='home-button' id='home-button'><a href='/contact'>REACH OUT</a></button>
     </div>
-    <div class='parallax get-involved-home'>
+    <div class='parallax' id='get-involved-home'>
         <p class='big-image-text'>GET INVOLVED</p>
         <button class=home-button id="join-us-button"><a href='/contact'>Join Us</a></button>
     </div>
