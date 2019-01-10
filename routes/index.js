@@ -7,9 +7,12 @@ router.get('/', function(req, res, next) {
   res.render('home', { title: 'Queen City Rotary' });
 });
 
+router.get('/calendar', function(req, res, next) {
+  res.render('calendar', { title: 'Club Calendar' });
+});
 
 router.get('/club', function(req, res, next) {
-  res.render('club', { title: 'Service' });
+  res.render('club', { title: 'Our Club' });
 });
 
 router.get('/service', function(req, res, next) {
