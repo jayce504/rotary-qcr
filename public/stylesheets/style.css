@@ -285,6 +285,16 @@ img {
 
 .resources {
   background-image: url('../images/resources.jpg');
+  height: 50em;
+  width: 137em;
+}
+
+.resource-text {
+  color:#fff;
+  text-align: left;
+  margin-left: 2.5em;
+  font-size: 700%;
+  padding-top: 12%;
 }
 
 .leadership {

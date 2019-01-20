@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var nodeMailer = require('nodemailer');
+const { ensureAuthenticated } = require('../config/auth');
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -23,9 +25,12 @@ router.get('/events', function(req, res, next) {
   res.render('events', { title: 'Events' });
 });
 
-router.get('/members', function(req, res, next) {
-  res.render('members', { title: 'Members' });
-});
+router.get('/members', ensureAuthenticated, (req, res) =>
+  res.render('members', {
+    user: req.user,
+    title: ''
+  })
+);
 
 router.get('/resources', function(req, res, next) {
   res.render('resources', { title: 'Members' });
@@ -75,9 +80,8 @@ router.post('/send-email', function (req, res) {
      res.render('thanks', { title: 'thanks' });
    });
 
-
-module.exports = router;
-
 router.get('/officers', function(req, res, next) {
   res.render('officers', { title: 'Officers' });
 });
+
+module.exports = router;
