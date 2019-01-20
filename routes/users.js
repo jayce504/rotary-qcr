@@ -3,7 +3,7 @@ const router = express.Router();
 const bcrypt = require('bcryptjs');
 const passport = require('passport');
 // Load User model
-const User = require('../models/User');
+var User = require('../models/user');
 
 // Login Page
 router.get('/login', (req, res) => res.render('login'));
