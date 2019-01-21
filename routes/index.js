@@ -25,6 +25,11 @@ router.get('/events', function(req, res, next) {
   res.render('events', { title: 'Events' });
 });
 
+
+router.get('/mission', function(req, res, next) {
+  res.render('mission', { title: 'Our Mission' });
+});
+
 router.get('/members', ensureAuthenticated, (req, res) =>
   res.render('members', {
     user: req.user,

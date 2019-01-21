@@ -6,18 +6,14 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <picture style="width:3vw; height:1.5vw;" >
-      <source srcset="../images/QCRRotary.jpeg" media="(max-width: 600px)">
-      <!-- <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-      <source srcset="flowers.jpg">
-      <img src="img_smallflower.jpg" alt="Flowers"> -->
-    </picture>
+  </body>
     <div class="parallax" id="home-skyline">
-      <p class='big-image-text'>The Parallax Effect Isn't Special</p>
-      <p class='big-image-text' id='skyline-small-text'>Mimicking overhyped websites since December 2018</p>
-      <button class='home-button' id='skyline-button'><a href='/contact'>We Won't Bribe You With Food</a></button>
+      <div>
+        <img src="../images/QCRRotary.jpeg" style = "width: 30%; height:30%; margin-left:35%; margin-top:7%; opacity: 0.9">
+        <button class='home-button' id='skyline-button'><a href='/contact'>We Won't Bribe You With Food</a></button>
+      </div>
     </div>
-    <div>
+    <!-- <div>
         <img id='first-home-banner' src="../images/together-we-are.jpg">
     </div>
     <hr>
@@ -50,7 +46,6 @@
     <div class='parallax' id='get-involved-home'>
         <p class='big-image-text'>GET INVOLVED</p>
         <button class=home-button id="join-us-button"><a href='/contact'>Join Us</a></button>
-    </div>
-  </body>
+    </div> -->
   <%- include ./partials/footer %>
 </html>

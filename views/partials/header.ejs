@@ -1,12 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Navbar JS-->
+    <!-- <script src="../public/javascripts/navbar"></script> -->
 
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
@@ -19,56 +23,53 @@
     <title>Queen City Rotary</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse navbar w-100" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-3 mt-lg-0">
-        <li class="nav-item">
-          <a class="navbar-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-link" href="/club">Our Club</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-link" href="/officers">Leadership</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-link" href="/events">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-link" href="/resources">Resources</a>
-        </li>
-        <li class="nav-item">
-            <a class="navbar-link" href="/calendar">Club Calendar</a>
-        </li>
-        <li class="nav-item">
-            <a class="navbar-link" href="/contact">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-link" href="/users/login">Don't Click Here</a>
-      </li>
-        <li class="nav-item">
-          <a class="navbar-link" href="http://www.rotary.org" target="_blank">Rotary International</a>
-        </li>
-      </ul>
-      <ul class = 'navbar-nav ml-auto'>
-        <li class="nav-item">
-            <a class="navbar-link" href="https://www.facebook.com/Charlotte-Queen-City-Rotary-699938383740240/?view_public_for=699938383740240" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-        </li>
-        <li class="nav-item">
-            <a class="navbar-link" href="https://www.instagram.com/queencityrotary7680/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-        </li>
-      </ul>
-    </div>
-    <!-- <li class="nav-item">
-        <a class="navbar-link" href="/users/logout">Logout</a>
-    </li> -->
-  </nav>
-</body>
-
-    <!-- Optional JavaScript -->
+      <nav class="navbar navbar-expand-sm">
+          <a class="navbar-brand" href="/">Queen City Rotary Inc.</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Our Club
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="/club">Who We Are</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="/mission">Our Mission</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="/officers">Our Leaders</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="/events">Our Events</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="/users/login">Don't Click Here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Rotary International
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="http://rotary.org">About Rotary International</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="http://www.rotary7680.org/district-grants.php">District Grants</a>
+                    </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Have Questions?</a>
+              </li>
+            </ul>
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href='https://facebook.com/queencityrotary7680'><i class="fab fa-3x fa-facebook"></i></a>
+                  </li>
+                  <li class="nav-item">
+                      <a href='https://instagram.com/queencityrotary7680'><i class="fab fa-3x fa-instagram"></i></a>
+                    </li>
+                </ul>
+          </div>
+        </nav>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

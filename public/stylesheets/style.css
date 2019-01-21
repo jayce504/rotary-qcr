@@ -1,29 +1,28 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #000;
   text-decoration: none;
+  color: #f4f1f1;
 }
 
 a:hover {
-  color: #000;
   text-decoration: none;
+  color: #f4f1f1;
 }
 
-div {
+/* div {
   margin-left: -3.7em;
   padding:0px;
   width: 109%;
-}
+} */
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
   padding-top: 25%;
-}
+} */
 
 .qcr-logo {
   width: 8%;
@@ -39,9 +38,7 @@ img {
 .navbar {
   margin-right: 0;
   margin-top: 0;
-  margin-left: -33px;
-  height: 80px;
-  width: 101%;
+  height: 60px;
   background-color: #2c4e9f;
   color: #eda03c;
 }
@@ -59,9 +56,8 @@ img {
 }
 
 .nav-item {
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-left: 4.6em;
-  padding-top: 1%;
   background-color: #2c4e9f;
   color: #eda03c;
 }
@@ -70,9 +66,15 @@ img {
   color: #eda03c;
 }
 
+.navbar-nav > li{
+  padding-left:80px;
+  padding-right:80px;
+  color:#eda03c;
+}
+
 .parallax {
-  height: 1080px;
-  width: 109%;
+  height: 890px;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,8 +82,9 @@ img {
 }
 
 .parallax-min {
-  height: 700px;
-  max-width: 109%;
+  margin-top: 0em;
+  height: 500px;
+  max-width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,7 +189,6 @@ img {
 
   #more-info-heading {
       text-align: center;
-      margin-top: 5em;
       border: 0.25em solid #2c4e9f;
       padding: 3em;
       color: #f6b448;
@@ -221,14 +223,21 @@ img {
     #home-button {
       margin-left: 2em;
       margin-top: 1.5em;
-      padding: 0.5em;
-      font-size: 7vw;
+      padding: 0.25em;
+      font-size: 1vw;
     }
 }
 
 .text-div {
   text-align: center;
-  padding: 5%;
+  padding: 3%;
+  border: 0.1em solid #f7f7f7;
+  background-color: #f7f7f7;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-top: 12%;
+  padding-bottom: 20%;
+  opacity: 0.9;
 }
 
 #more-info-button {
@@ -241,14 +250,6 @@ img {
   margin-bottom: 3%;
   background-color: #2c4e9f;
   color: #f6b448;
-}
-
-.footer-div {
-  text-align: center;
-  background-color: blanchedalmond;
-  width: 109%;
-  padding-bottom: 3%;
-  margin-bottom: -32000px;
 }
 
 #home-skyline {
@@ -327,8 +328,10 @@ font-size: 3em;
 }
 
 #skyline-button {
-  margin-left: 40%;
+  margin-top: 3%;
+  margin-left: 42%;
   margin-right: 40%;
+  color: black;
 }
 
 #first-home-banner {
@@ -347,9 +350,10 @@ font-size: 3em;
   padding: 1%;
   margin-top: 2%;
   margin-bottom: 2%;
-  font-size: 1.5vw;
+  font-size: 1vw;
   background-color: #eda03c;
   border: solid 0.05em #eda03c;
+  color: #000;
 }
 
 #home-join-us {
@@ -410,10 +414,11 @@ font-size: 3em;
 }
 
 .big-image-text {
-  color:#fff;
-  text-align: center;
-  font-size: 550%;
-  padding-top: 12%;
+  width: 30%; 
+  height:30%; 
+  margin-left:35%;
+  margin-top:7%; 
+  opacity: 0.9"
 }
 
 .officer-div {
@@ -434,7 +439,6 @@ font-size: 3em;
 
 .more-info-heading {
   text-align: center;
-  margin-top: 1.5%;
   border: 0.25em solid #2c4e9f;
   padding: 3em;
   color: #f6b448;
@@ -448,8 +452,6 @@ font-size: 3em;
   padding-right: 20%;
   background-color: #fff;
 }
-
-
 
 .form-control {
   margin-top: 3%;
@@ -466,11 +468,79 @@ font-size: 3em;
   text-align: center;
 }
 
-.footer-button {
-  margin-left: 28em;
-  padding: 1%;
-  margin: 3%;
-  font-size: 2vw;
+.footer-div {
+  text-align: center;
   background-color: #eda03c;
-  border: solid 0.05em #eda03c;
+  width: 100%;
+  padding:0.1%;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 0;
+  font-size: 0.6;
+  height: 2%;
+}
+
+/* card css */
+.card-container {
+  -webkit-perspective: 500px;
+          perspective: 500px;
+}
+
+.card-container:hover .card{
+  -webkit-transform: rotateY( 180deg );
+          transform: rotateY( 180deg );
+}
+
+.card {
+  -webkit-transition: -webkit-transform 0.7s;
+          transition: transform 0.7s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.back {
+  -webkit-transform: rotateY( 180deg );
+          transform: rotateY( 180deg );
+}
+
+/*Custom Styles*/
+.cards-container{
+ display: -webkit-flex;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-flex-direction: row;
+ -webkit-box-orient: horizontal;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+         flex-direction: row;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+.card {
+width: 300px;
+height: 330px;
+margin: 20px;
+}
+
+.front, .back {
+box-shadow: 0 1px 6px 0;
+position: absolute;
+width: 100%;
+top: 0;
+bottom: 0;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 2.9vh;
+  margin-top: 3em;
 }
