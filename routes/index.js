@@ -45,6 +45,10 @@ router.get('/contact', function(req, res, next) {
   res.render('contact_us', { title: 'Members' });
 });
 
+router.get('/this-week', function(req, res, next) {
+  res.render('this-week', { title: 'Members' });
+});
+
 router.post('/send-email', function (req, res) {
      let transporter = nodeMailer.createTransport({
          host: 'smtp.gmail.com',

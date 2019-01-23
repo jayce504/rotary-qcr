@@ -1,5 +1,5 @@
 body {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Cuprum', sans-serif;
 }
 
 a {
@@ -31,7 +31,7 @@ a:hover {
 }
 
 .calendar {
-  margin-top: 2.5%;
+  margin-top: 1.5%;
   margin-left: 5%;
 }
 
@@ -57,7 +57,7 @@ a:hover {
 
 .nav-item {
   font-size: 1.1em;
-  margin-left: 4.6em;
+  margin-left: 1em;
   background-color: #2c4e9f;
   color: #eda03c;
 }
@@ -67,12 +67,13 @@ a:hover {
 }
 
 .navbar-nav > li{
-  padding-left:80px;
-  padding-right:80px;
+  padding-left:60px;
+  padding-right:60px;
   color:#eda03c;
 }
 
 .parallax {
+  margin-top: 0em;
   height: 890px;
   width: 100%;
   background-attachment: fixed;
@@ -91,143 +92,6 @@ a:hover {
   background-size: cover;
 }
 
-@media screen and (max-width: 600px) {
-
-  div {
-    margin-left: -0.5em;
-  }
-
-  #home-skyline {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-
-  #first-home-banner {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-
-  #we-statements{
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-
-  #home-join-us{
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-
-  #lunch-image {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-
-  #centered-home-text {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-
-  #get-involved-home {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-
-  #home-join-us-button {
-      visibility: hidden;
-      clear: both;
-      float: left;
-      margin: 10px auto 5px 20px;
-      width: 28%;
-      display: none;
-    }
-
-  .footer-div {
-      visibility: hidden;
-      clear: both;
-      float: left;
-      margin: 10px auto 5px 20px;
-      width: 28%;
-      display: none;
-    }
-
-  #home-snapshots {
-      visibility: hidden;
-      clear: both;
-      float: left;
-      margin: 10px auto 5px 20px;
-      width: 28%;
-      display: none;
-    }
-
-  #more-info-heading {
-      text-align: center;
-      border: 0.25em solid #2c4e9f;
-      padding: 3em;
-      color: #f6b448;
-      background-color: #2c4e9f;
-    }
-
-  #more-info-button {
-      padding-left: 5%;
-      padding-right: 5%;
-      padding-top: 1%;
-      padding-bottom: 1%;
-      margin-left: 4%;
-      margin-bottom: 3%;
-      background-color: #2c4e9f;
-      color: #f6b448;
-    }
-
-    #form-control {
-      margin-top: 3%;
-      margin-right: 2%;
-      text-align: left;
-      padding-left: 10%;
-      padding-right: 10%;
-    }
-
-    #more-info-form {
-      padding-top: 4%;
-      padding-bottom: 5%;
-      background-color: #fff;
-    }
-
-    #home-button {
-      margin-left: 2em;
-      margin-top: 1.5em;
-      padding: 0.25em;
-      font-size: 1vw;
-    }
-}
-
 .text-div {
   text-align: center;
   padding: 3%;
@@ -238,6 +102,22 @@ a:hover {
   padding-top: 12%;
   padding-bottom: 20%;
   opacity: 0.9;
+}
+
+.text-box {
+  text-align: center;
+  border: 0.1em solid #a49aba;
+  background-color: #a49aba;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-top: 12%;
+  padding-bottom: 10%;
+  opacity: 0.9;
+}
+
+.indented-div {
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
 #more-info-button {
@@ -254,6 +134,10 @@ a:hover {
 
 #home-skyline {
   background-image: url("../images/skyline.jpg");
+}
+
+.skyline-2 {
+  background-image: url("../images/skyline-2.jpg")
 }
 
 .ariel-charlotte {
@@ -543,4 +427,143 @@ bottom: 0;
   text-align: center;
   font-size: 2.9vh;
   margin-top: 3em;
+}
+
+/* mobile settings */
+
+@media screen and (max-width: 600px) {
+
+  div {
+    margin-left: -0.5em;
+  }
+
+  #home-skyline {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #first-home-banner {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #we-statements{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #home-join-us{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #lunch-image {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #centered-home-text {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #get-involved-home {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #home-join-us-button {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+
+  .footer-div {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+
+  #home-snapshots {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+
+  #more-info-heading {
+      text-align: center;
+      border: 0.25em solid #2c4e9f;
+      padding: 3em;
+      color: #f6b448;
+      background-color: #2c4e9f;
+    }
+
+  #more-info-button {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      margin-left: 4%;
+      margin-bottom: 3%;
+      background-color: #2c4e9f;
+      color: #f6b448;
+    }
+
+    #form-control {
+      margin-top: 3%;
+      margin-right: 2%;
+      text-align: left;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    #more-info-form {
+      padding-top: 4%;
+      padding-bottom: 5%;
+      background-color: #fff;
+    }
+
+    #home-button {
+      margin-left: 2em;
+      margin-top: 1.5em;
+      padding: 0.25em;
+      font-size: 1vw;
+    }
 }
