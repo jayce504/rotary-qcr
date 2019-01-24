@@ -657,7 +657,6 @@ bottom: 0;
     }
 
     .cards-container{
-      margin-top: 5em;
       display: -webkit-flex;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -675,18 +674,24 @@ bottom: 0;
      }
 
      .card-container {
-      width: 100px;
-      height: 200px;
+      margin-top: 1em;
+      width: 250px;
+      height: 300px;
+     }
+
+     .card {
+      width: 250px;
+      height: 300px;
      }
 
      .front {
-      width: 100px;
-      height: 200px;
+      width: 250px;
+      height: 300px;
     }
 
      .back {
-       width: 100px;
-       height: 200px;
+       width: 250px;
+       height: 300px;
      }
 
 }
