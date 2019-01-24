@@ -674,4 +674,19 @@ bottom: 0;
              justify-content: center;
      }
 
+     .card-container {
+      width: 100px;
+      height: 200px;
+     }
+
+     .front {
+      width: 100px;
+      height: 200px;
+    }
+
+     .back {
+       width: 100px;
+       height: 200px;
+     }
+
 }
