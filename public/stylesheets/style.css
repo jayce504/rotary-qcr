@@ -74,7 +74,7 @@ a:hover {
 
 .parallax {
   margin-top: 0em;
-  height: 890px;
+  height: 1000px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -94,13 +94,12 @@ a:hover {
 
 .text-div {
   text-align: center;
-  padding: 3%;
+  padding: 2%;
   border: 0.1em solid #f7f7f7;
   background-color: #f7f7f7;
   margin-left: 35%;
   margin-right: 35%;
-  padding-top: 12%;
-  padding-bottom: 20%;
+  margin-top: 5em;
   opacity: 0.9;
 }
 
@@ -132,7 +131,7 @@ a:hover {
   color: #f6b448;
 }
 
-#home-skyline {
+.home-skyline {
   background-image: url("../images/skyline.jpg");
 }
 
@@ -394,6 +393,7 @@ font-size: 3em;
 
 /*Custom Styles*/
 .cards-container{
+ margin-top: 5em;
  display: -webkit-flex;
  display: -webkit-box;
  display: -ms-flexbox;
@@ -411,7 +411,7 @@ font-size: 3em;
 
 .card {
 width: 300px;
-height: 330px;
+height: 320px;
 margin: 20px;
 }
 
@@ -435,6 +435,12 @@ bottom: 0;
 
   div {
     margin-left: -0.5em;
+  }
+
+  .row {
+    padding-top: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   #home-skyline {
@@ -554,6 +560,14 @@ bottom: 0;
       padding-right: 10%;
     }
 
+    .nav-item {
+      font-size: 1.1em;
+      text-align: right;
+      font-size: 1em;
+      background-color: #2c4e9f;
+      color: #eda03c;
+    }
+
     #more-info-form {
       padding-top: 4%;
       padding-bottom: 5%;
@@ -566,4 +580,92 @@ bottom: 0;
       padding: 0.25em;
       font-size: 1vw;
     }
+
+    .logo-container {
+      text-align: center;
+      opacity: 0.92;
+      font-size: 0.5em;
+      margin-right: 6em;
+      margin-left: 6em;
+      background-color: #a49aba;
+    }
+
+    .button-container {
+      margin-top: 2em;
+    }
+
+    #skyline-button {
+      font-size: 1em;
+      margin-top: 20%;
+      margin-left: 35%;
+      margin-right: 30%;
+      color: black;
+    }
+
+    .home-button{
+      font-size: 1.3em;
+      margin-top: 20%;
+      margin-left: 15%;
+      margin-right: 13%;
+      color: black;
+    }
+
+    #projects-button {
+      font-size: 1.6em;
+      margin-top: 20%;
+      margin-left: 21%;
+      margin-right: 15%;
+      color: black;
+    }
+
+    .text-box {
+      text-align: center;
+      border: 0.1em solid #a49aba;
+      background-color: #a49aba;
+      margin-left: 20%;
+      margin-right: 20%;
+      /* margin-top:20%; */
+      padding-top: 5%;
+      padding-bottom: 5%;
+      opacity: 0.9;
+    }
+
+    
+    .text-div {
+      text-align: center;
+      border: 0.1em solid #a49aba;
+      background-color: #a49aba;
+      margin-left: 20%;
+      margin-right: 20%;
+      /* margin-top:20%; */
+      padding-top: 5%;
+      padding-bottom: 5%;
+      opacity: 0.9;
+    }
+
+    .more-info-heading {
+      margin-top: 2em;
+    }
+
+    #more-info-button {
+      margin-left: 37%;
+    }
+
+    .cards-container{
+      margin-top: 5em;
+      display: -webkit-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: block;
+      margin-left: 5em;
+      -webkit-flex-direction: row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     }
 }

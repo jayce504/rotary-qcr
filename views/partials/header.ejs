@@ -8,6 +8,7 @@
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
      <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
 
     <!--Navbar JS-->
     <!-- <script src="../public/javascripts/navbar"></script> -->
@@ -23,14 +24,14 @@
     <title>Queen City Rotary</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-sm">
+    <nav id="sidebar-wrapper" class="navbar navbar-dark header-top fixed-top navbar-expand-md navbar-expand-lg navbar-expand-xl" >
           <a class="navbar-brand" href="/">Queen City Rotary Inc.</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarItems" aria-controls="navbarItems" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarItems">
+          <!--flex-column-->
+          <ul class="navbar-nav animate side-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Our Club
@@ -47,15 +48,9 @@
                       <a class="dropdown-item" href="/users/login">Don't Click Here</a>
                     </div>
                   </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Rotary International
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="http://rotary.org" target="_blank">About Rotary International</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="http://www.rotary7680.org/district-grants.php" target="_blank">District Grants</a>
-                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.rotary.org" target="_blank">Rotary International</a>
+                  </li>
               <li class="nav-item">
                 <a class="nav-link" href="/contact">Have Questions?</a>
               </li>
