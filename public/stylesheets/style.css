@@ -437,6 +437,10 @@ bottom: 0;
     margin-left: -0.5em;
   }
 
+  .parallax {
+    width: 102%;
+  }
+
   .row {
     padding-top: 5em;
     margin-left: 1em;
@@ -592,6 +596,7 @@ bottom: 0;
 
     .button-container {
       margin-top: 2em;
+      margin-left: 0.8em; 
     }
 
     #skyline-button {
@@ -604,7 +609,7 @@ bottom: 0;
 
     .home-button{
       font-size: 1.3em;
-      margin-top: 20%;
+      margin-top: 10%;
       margin-left: 15%;
       margin-right: 13%;
       color: black;
@@ -635,8 +640,8 @@ bottom: 0;
       text-align: center;
       border: 0.1em solid #a49aba;
       background-color: #a49aba;
-      margin-left: 20%;
-      margin-right: 20%;
+      margin-left: 15%;
+      margin-right: 10%;
       /* margin-top:20%; */
       padding-top: 5%;
       padding-bottom: 5%;
@@ -657,7 +662,7 @@ bottom: 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: block;
-      margin-left: 5em;
+      margin-left: 3em;
       -webkit-flex-direction: row;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -668,4 +673,5 @@ bottom: 0;
          -ms-flex-pack: center;
              justify-content: center;
      }
+
 }
