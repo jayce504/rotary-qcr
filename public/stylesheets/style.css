@@ -94,12 +94,11 @@ a:hover {
 
 .text-div {
   text-align: center;
-  padding: 2%;
+  padding: 1%;
   border: 0.1em solid #f7f7f7;
   background-color: #f7f7f7;
   margin-left: 35%;
   margin-right: 35%;
-  margin-top: 5em;
   opacity: 0.9;
 }
 
