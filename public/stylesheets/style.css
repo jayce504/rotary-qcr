@@ -31,8 +31,8 @@ a:hover {
 }
 
 .calendar {
-  margin-top: 1.5%;
-  margin-left: 5%;
+  margin-top: 4%;
+  margin-left: 9%;
 }
 
 .navbar {
@@ -233,6 +233,7 @@ font-size: 3em;
   padding: 1%;
   margin-top: 2%;
   margin-bottom: 2%;
+  margin-left: 43em;
   font-size: 1vw;
   background-color: #eda03c;
   border: solid 0.05em #eda03c;
