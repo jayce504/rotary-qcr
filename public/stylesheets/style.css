@@ -109,8 +109,8 @@ a:hover {
   background-color: #a49aba;
   margin-left: 35%;
   margin-right: 35%;
-  padding-top: 12%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   opacity: 0.9;
 }
 
@@ -393,7 +393,7 @@ font-size: 3em;
 
 /*Custom Styles*/
 .cards-container{
- margin-top: 5em;
+ margin-top: 0.5em;
  display: -webkit-flex;
  display: -webkit-box;
  display: -ms-flexbox;
