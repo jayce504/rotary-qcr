@@ -582,9 +582,10 @@ bottom: 0;
 
     #home-logo {
       width: 80%;
-      height: 20%;
+      height: 17%;
       margin-left: 3em;
-      opacity: 1;
+      opacity: 0.9;
+      margin-top: -3em;
     }
 
     .button-container {
