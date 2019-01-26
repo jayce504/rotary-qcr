@@ -12,22 +12,14 @@ a:hover {
   color: #f4f1f1;
 }
 
-/* div {
-  margin-left: -3.7em;
-  padding:0px;
-  width: 109%;
-} */
-
-/* img {
-  max-width: 100%;
-  height: auto;
-  padding-top: 25%;
-} */
-
 .qcr-logo {
   width: 8%;
   height: 5%;
   margin-left: 3%;
+}
+
+.logo-container {
+  margin-left: 40em;
 }
 
 .calendar {
@@ -315,13 +307,9 @@ font-size: 3em;
   margin-bottom: 2em;
 }
 
-#kristen-pic {
-  width: 37%;
-  height: 60%;
-}
-
 .more-info-heading {
   text-align: center;
+  margin-top: 2em;
   border: 0.25em solid #2c4e9f;
   padding: 3em;
   color: #f6b448;
@@ -394,6 +382,7 @@ font-size: 3em;
 /*Custom Styles*/
 .cards-container{
  margin-top: 0.5em;
+ margin-bottom: 1.5em;
  display: -webkit-flex;
  display: -webkit-box;
  display: -ms-flexbox;
@@ -411,7 +400,7 @@ font-size: 3em;
 
 .card {
 width: 300px;
-height: 320px;
+height: 300px;
 margin: 20px;
 }
 
@@ -590,7 +579,6 @@ bottom: 0;
       opacity: 0.92;
       font-size: 0.5em;
       margin-right: 6em;
-      margin-left: 6em;
       background-color: #a49aba;
     }
 
