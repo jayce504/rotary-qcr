@@ -654,7 +654,7 @@ bottom: 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: block;
-      margin-left: 3em;
+      margin-left: 2em;
       -webkit-flex-direction: row;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -667,24 +667,24 @@ bottom: 0;
      }
 
      .card-container {
-      margin-top: 1em;
-      width: 200px;
-      height: 250px;
+      margin-top: 2em;
+      width: 300px;
+      height: 300px;
      }
 
      .card {
-      width: 200px;
-      height: 250px;
+      width: 300px;
+      height: 300px;
      }
 
      .front {
-      width: 200px;
-      height: 250px;
+      width: 300px;
+      height: 300px;
     }
 
      .back {
-       width: 200px;
-       height: 250px;
+       width: 300px;
+       height: 300px;
      }
 
 }
