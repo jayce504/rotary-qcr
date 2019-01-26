@@ -428,9 +428,10 @@ bottom: 0;
 
 @media screen and (max-width: 600px) {
 
-  /* div {
-    margin-left: -0.5em;
-  } */
+  img {
+    width: 300px;
+    height: 300px;
+  }
 
   .parallax {
     width: 102%;
@@ -687,19 +688,6 @@ bottom: 0;
      .back {
        width: 300px;
        height: 300px;
-       display: -webkit-flex;
-       display: -webkit-box;
-       display: -ms-flexbox;
-       display: block;
-       -webkit-flex-direction: row;
-       -webkit-box-orient: horizontal;
-       -webkit-box-direction: normal;
-           -ms-flex-direction: row;
-               flex-direction: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center;
      }
 
 }
