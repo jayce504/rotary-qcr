@@ -231,6 +231,12 @@ font-size: 3em;
   color: #000;
 }
 
+#home-logo {
+  width: 50%;
+  height: 50%;
+  opacity: 0.9;
+}
+
 #home-join-us {
   background-image: url("../images/home-join-us.jpg");
   margin-top: 10%;
@@ -422,9 +428,9 @@ bottom: 0;
 
 @media screen and (max-width: 600px) {
 
-  div {
+  /* div {
     margin-left: -0.5em;
-  }
+  } */
 
   .parallax {
     width: 102%;
@@ -574,12 +580,11 @@ bottom: 0;
       font-size: 1vw;
     }
 
-    .logo-container {
-      text-align: center;
-      opacity: 0.92;
-      font-size: 0.5em;
-      margin-right: 6em;
-      background-color: #a49aba;
+    #home-logo {
+      width: 80%;
+      height: 20%;
+      margin-left: 3em;
+      opacity: 1;
     }
 
     .button-container {
@@ -588,17 +593,18 @@ bottom: 0;
     }
 
     #skyline-button {
-      font-size: 1em;
-      margin-top: 20%;
-      margin-left: 35%;
-      margin-right: 30%;
+      font-size: 1.5em;
+      margin-top: 15%;
+      margin-left: 20%;
+      margin-right: 20%;
+      padding: 2%;
       color: black;
     }
 
     .home-button{
       font-size: 1.3em;
       margin-top: 10%;
-      margin-left: 15%;
+      margin-left: 22%;
       margin-right: 13%;
       color: black;
     }
@@ -623,15 +629,14 @@ bottom: 0;
       opacity: 0.9;
     }
 
-    
     .text-div {
       text-align: center;
       border: 0.1em solid #a49aba;
       background-color: #a49aba;
-      margin-left: 15%;
+      margin-left: 10%;
       margin-right: 10%;
-      /* margin-top:20%; */
-      padding-top: 5%;
+      margin-top: -8%;
+      padding-top: 3%;
       padding-bottom: 5%;
       opacity: 0.9;
     }
