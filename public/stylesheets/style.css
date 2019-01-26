@@ -655,12 +655,12 @@ bottom: 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: block;
-      margin-left: 2em;
+      margin-left: 2.3em;
       -webkit-flex-direction: row;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row;
+              flex-direction: block;
      -webkit-box-pack: center;
      -webkit-justify-content: center;
          -ms-flex-pack: center;
@@ -673,10 +673,10 @@ bottom: 0;
       height: 300px;
      }
 
-     .card {
+     /* .card {
       width: 300px;
       height: 300px;
-     }
+     } */
 
      .front {
       width: 300px;
