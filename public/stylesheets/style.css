@@ -232,9 +232,10 @@ font-size: 3em;
 }
 
 #home-logo {
-  width: 50%;
-  height: 50%;
-  opacity: 0.9;
+  width: 30%;
+  height: 25%;
+  opacity: 0.95;
+  margin-left: 42em;
 }
 
 #home-join-us {
