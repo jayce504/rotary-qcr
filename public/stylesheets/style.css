@@ -472,8 +472,6 @@ bottom: 0;
   }
 
   .cards-container{
-    /* margin-top: 0.5em;
-    margin-bottom: 0.5em; */
     margin-left: 1em;
     margin-right: 1em;
     display: -webkit-flex;
@@ -492,11 +490,12 @@ bottom: 0;
    }
 
    .card-container {
-    margin-top: 0.5em;
-    margin-left: 0.3em;
+    margin-top: 0.2em;
+    margin-left: 0.1em;
     margin-right: 0.3em;
-    width: 300px;
-    height: 300px;
+    margin-bottom: 0.5em;
+    width: 310px;
+    height: 320px;
    }
 
    .card {
