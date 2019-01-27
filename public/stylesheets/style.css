@@ -296,10 +296,10 @@ font-size: 3em;
 }
 
 .big-image-text {
-  width: 30%; 
-  height:30%; 
+  width: 30%;
+  height:30%;
   margin-left:35%;
-  margin-top:7%; 
+  margin-top:7%;
   opacity: 0.9"
 }
 
@@ -423,6 +423,100 @@ bottom: 0;
   text-align: center;
   font-size: 2.9vh;
   margin-top: 3em;
+}
+
+/* mid sized screen settings  */
+
+@media screen and (max-width: 1280px) {
+
+  #home-logo {
+    margin-left: 27em;
+    width: 35%;
+    height: 20%;
+  }
+
+  #skyline-button {
+    padding: 1.5%;
+    font-size:2.5vh;
+  }
+
+  .navbar {
+    height: 4em;
+    width: 100%;
+  }
+
+  .navbar-nav > li{
+    padding-left:20px;
+    padding-right:33px;
+    color:#eda03c;
+  }
+
+  .text-div {
+    margin-left: 40em;
+    margin-right: 40em;
+    font-size: 1vh;
+  }
+
+  #meetings-div {
+    font-size: 1.8vh;
+  }
+
+  #view-map-button {
+    font-size: 2.2vh;
+    margin-left: 36em;
+  }
+
+  #projects-button {
+    font-size: 1.2em;
+    margin-left: 27em;
+  }
+
+  .cards-container{
+    /* margin-top: 0.5em;
+    margin-bottom: 0.5em; */
+    margin-left: 1em;
+    margin-right: 1em;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   }
+
+   .card-container {
+    margin-top: 0.5em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    width: 300px;
+    height: 300px;
+   }
+
+   .card {
+    width: 300px;
+    height: 300px;
+   }
+
+   .card img {
+     max-width: 100%;
+   }
+
+   .front {
+    width: 300px;
+    height: 300px;
+  }
+
+   .back {
+     width: 300px;
+     height: 300px;
+   }
 }
 
 /* mobile settings */
@@ -593,7 +687,7 @@ bottom: 0;
 
     .button-container {
       margin-top: 2em;
-      margin-left: 0.8em; 
+      margin-left: 0.8em;
     }
 
     #skyline-button {
