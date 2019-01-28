@@ -542,6 +542,7 @@ bottom: 0;
   img {
     width: 300px;
     height: 300px;
+    display: block;
   }
 
   .parallax {
@@ -763,7 +764,7 @@ bottom: 0;
       margin-left: 37%;
     }
 
-    /* .card-container {
+    .card-container {
       -webkit-perspective: 300px;
               perspective: 300px;
     }
@@ -789,7 +790,7 @@ bottom: 0;
         -webkit-transform: rotateY( 180deg );
                 transform: rotateY( 180deg );
     }
-     */
+    
     /*Custom Styles*/
     .cards-container{
       margin-left: 3em;
@@ -816,7 +817,7 @@ bottom: 0;
     
     .front, .back {
       box-shadow: 0 1px 6px 0;
-      position: absolute;
+      position: block;
       width: 100%;
       top: 0;
       bottom: 0;
