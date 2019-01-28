@@ -803,7 +803,7 @@ bottom: 0;
      .back {
        width: 300px;
        height: 300px;
-       opacity: 1;
+       backface-visibility: hidden;
      }
 
 }
