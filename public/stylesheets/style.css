@@ -540,8 +540,6 @@ bottom: 0;
 @media screen and (max-width: 600px) {
 
   img {
-    width: 300px;
-    height: 300px;
     display: block;
   }
 
@@ -765,8 +763,8 @@ bottom: 0;
     }
 
     .card-container {
-      -webkit-perspective: 300px;
-              perspective: 300px;
+      -webkit-perspective: 500px;
+              perspective: 500px;
     }
   
     .card-container:hover .card{
@@ -793,16 +791,16 @@ bottom: 0;
     
     /*Custom Styles*/
     .cards-container{
-      margin-left: 3em;
-      display: -webkit-block;
-      display: -webkit-block;
-      display: -ms-block;
+      margin-left: 4em;
+      display: -webkit-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: block;
-      -webkit-flex-direction: block;
+      -webkit-flex-direction: row;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
-          -ms-flex-direction: block;
-              flex-direction: block;
+          -ms-flex-direction: row;
+              flex-direction: row;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
@@ -810,9 +808,13 @@ bottom: 0;
     }
     
     .card {
-      width: 300px;
-      height: 300px;
+      width: 250px;
+      height: 250px;
       margin: 10px;
+    }
+
+    .card-text {
+      font-size: 3vh;
     }
     
     .front, .back {
