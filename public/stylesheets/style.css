@@ -822,7 +822,7 @@ bottom: 0;
 
   .back {
     opacity: 1;
-    background-image: url(../images/brie.jpg);
+    background-color: blue;
   }
 
   img {
