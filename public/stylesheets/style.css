@@ -780,10 +780,10 @@ bottom: 0;
                 transform-style: preserve-3d;
     }
     
-    /* .front, .back {
+    .front, .back {
         -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
-    } */
+    }
     
     .back {
         -webkit-transform: rotateY( 180deg );
