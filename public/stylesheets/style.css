@@ -790,7 +790,7 @@ bottom: 0;
   }
 
   /*Custom Styles*/
-  .cards-container{
+  /* .cards-container{
      display: -webkit-flex;
      display: -webkit-box;
      display: -ms-flexbox;
@@ -804,9 +804,10 @@ bottom: 0;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
+  } */
 
   .card {
+    display: block;
     width: 250px;
     height: 300px;
     margin: 10px;
@@ -814,7 +815,7 @@ bottom: 0;
 
   .front, .back {
     box-shadow: 0 1px 6px 0;
-    position: align-self;
+    position: block;
     width: 100%;
     top: 0;
     bottom: 0;
