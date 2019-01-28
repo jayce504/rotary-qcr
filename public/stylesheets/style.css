@@ -807,14 +807,14 @@ bottom: 0;
   }
 
   .card {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 300px;
     margin: 10px;
   }
 
   .front, .back {
     box-shadow: 0 1px 6px 0;
-    position: absolute;
+    position: align-self;
     width: 100%;
     top: 0;
     bottom: 0;
