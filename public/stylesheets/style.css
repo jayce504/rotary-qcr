@@ -794,15 +794,15 @@ bottom: 0;
     /*Custom Styles*/
     .cards-container{
       margin-left: 3em;
-      display: -webkit-flex;
-      display: -webkit-box;
-      display: -ms-flexbox;
+      display: -webkit-block;
+      display: -webkit-block;
+      display: -ms-block;
       display: block;
-      -webkit-flex-direction: row;
+      -webkit-flex-direction: block;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
+          -ms-flex-direction: block;
+              flex-direction: block;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
