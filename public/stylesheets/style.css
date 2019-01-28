@@ -764,8 +764,8 @@ bottom: 0;
     }
 
     .card-container {
-      -webkit-perspective: 500px;
-              perspective: 500px;
+      -webkit-perspective: 300px;
+              perspective: 300px;
     }
   
     .card-container:hover .card{
@@ -774,16 +774,16 @@ bottom: 0;
     }
     
     .card {
-        -webkit-transition: -webkit-transform 0.7s;
-                transition: transform 0.7s;
+        -webkit-transition: -webkit-transform 0.8s;
+                transition: transform 0.8s;
         -webkit-transform-style: preserve-3d;
                 transform-style: preserve-3d;
     }
     
-    .front, .back {
+    /* .front, .back {
         -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
-    }
+    } */
     
     .back {
         -webkit-transform: rotateY( 180deg );
@@ -792,6 +792,7 @@ bottom: 0;
     
     /*Custom Styles*/
     .cards-container{
+      margin-left: 3em;
       display: -webkit-flex;
       display: -webkit-box;
       display: -ms-flexbox;
