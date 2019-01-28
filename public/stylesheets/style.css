@@ -782,6 +782,8 @@ bottom: 0;
   .front, .back {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
+              width: 250px;
+              height: 300px;
   }
 
   .back {
