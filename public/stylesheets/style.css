@@ -777,13 +777,13 @@ bottom: 0;
               transition: transform 0.7s;
       -webkit-transform-style: preserve-3d;
               transform-style: preserve-3d;
+              width: 250px;
+              height: 300px;
   }
 
   .front, .back {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
-              width: 250px;
-              height: 300px;
   }
 
   .back {
