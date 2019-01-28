@@ -763,47 +763,62 @@ bottom: 0;
       margin-left: 37%;
     }
 
+    .card-container {
+      -webkit-perspective: 500px;
+              perspective: 500px;
+    }
+  
+    .card-container:hover .card{
+        -webkit-transform: rotateY( 180deg );
+                transform: rotateY( 180deg );
+    }
+    
+    .card {
+        -webkit-transition: -webkit-transform 0.7s;
+                transition: transform 0.7s;
+        -webkit-transform-style: preserve-3d;
+                transform-style: preserve-3d;
+    }
+    
+    .front, .back {
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+    }
+    
+    .back {
+        -webkit-transform: rotateY( 180deg );
+                transform: rotateY( 180deg );
+    }
+    
+    /*Custom Styles*/
     .cards-container{
       display: -webkit-flex;
       display: -webkit-box;
       display: -ms-flexbox;
       display: block;
-      margin-left: 2.3em;
       -webkit-flex-direction: row;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: flex;
-     -webkit-box-pack: center;
-     -webkit-justify-content: center;
-         -ms-flex-pack: center;
-             justify-content: center;
-     }
-
-     .card-container {
-      margin-top: 2em;
-      width: 300px;
-      height: 300px;
-     }
-
-     .card {
-      width: 300px;
-      height: 300px;
-     }
-
-     .card img {
-       max-width: 100%;
-     }
-
-     .front {
-      width: 300px;
-      height: 300px;
+              flex-direction: row;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
     }
-
-     .back {
-       width: 300px;
-       height: 300px;
-       backface-visibility: hidden;
-     }
+    
+    .card {
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+    }
+    
+    .front, .back {
+      box-shadow: 0 1px 6px 0;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+    }
 
 }
