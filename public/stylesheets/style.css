@@ -790,7 +790,7 @@ bottom: 0;
   }
 
   /*Custom Styles*/
-  /* .cards-container{
+  .cards-container{
      display: -webkit-flex;
      display: -webkit-box;
      display: -ms-flexbox;
@@ -804,7 +804,7 @@ bottom: 0;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-  } */
+  }
 
   .card {
     display: block;
