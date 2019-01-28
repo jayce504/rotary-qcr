@@ -6,6 +6,66 @@
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
   </head>
   <body>
+    <style>
+    .card-container {
+-webkit-perspective: 500px;
+perspective: 500px;
+}
+
+.card-container:hover .card{
+-webkit-transform: rotateY( 180deg );
+transform: rotateY( 180deg );
+}
+
+.card {
+-webkit-transition: -webkit-transform 0.7s;
+transition: transform 0.7s;
+-webkit-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+
+.front, .back {
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.back {
+-webkit-transform: rotateY( 180deg );
+transform: rotateY( 180deg );
+}
+
+/*Custom Styles*/
+.cards-container{
+margin-left: 4em;
+display: -webkit-flex;
+display: -webkit-box;
+display: -ms-flexbox;
+display: block;
+-webkit-flex-direction: row;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: row;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
+justify-content: center;
+}
+
+.card {
+width: 250px;
+height: 300px;
+margin: 10px;
+}
+
+.front, .back {
+box-shadow: 0 1px 6px 0;
+position: absolute;
+width: 100%;
+top: 0;
+bottom: 0;
+}
+    </style>
       <div class="more-info-heading" id='more-info-heading'>
           <h2>People Who Take The Blame For Things</h2>
           <h4>(Our Officers)</h4>
@@ -22,7 +82,7 @@
         </div>
       </div>
     </div>
-    
+
   <!--   Second Card -->
     <div class="card-container">
       <div class="card">
@@ -34,7 +94,7 @@
         </div>
       </div>
     </div>
-    
+
     <!--   Third Card -->
     <div class="card-container">
       <div class="card">
@@ -46,7 +106,7 @@
         </div>
       </div>
     </div>
-    
+
     <!--   Fourth Card -->
     <div class="card-container">
       <div class="card">
@@ -58,7 +118,7 @@
         </div>
       </div>
     </div>
-    
+
     <!--   Fifth Card -->
     <div class="card-container">
       <div class="card">
@@ -69,7 +129,7 @@
   <img src="https://api.adorable.io/avatars/150/10">
         </div>
       </div>
-    </div>  
+    </div>
   </div>
 
       <!-- <div class="card-container">
