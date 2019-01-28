@@ -820,11 +820,6 @@ bottom: 0;
     bottom: 0;
   }
 
-  .back {
-    opacity: 1;
-    background-color: blue;
-  }
-
   img {
     display: block;
   }
