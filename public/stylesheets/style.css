@@ -791,7 +791,6 @@ bottom: 0;
   
   /*Custom Styles*/
   .cards-container{
-    margin-left: 4em;
      display: -webkit-flex;
      display: -webkit-box;
      display: -ms-flexbox;
@@ -808,8 +807,8 @@ bottom: 0;
   }
   
   .card {
-    width: 250px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
   }
   
