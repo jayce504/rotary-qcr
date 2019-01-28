@@ -807,7 +807,6 @@ bottom: 0;
   }
 
   .card {
-    display: block;
     width: 250px;
     height: 300px;
     margin: 10px;
@@ -819,6 +818,11 @@ bottom: 0;
     width: 100%;
     top: 0;
     bottom: 0;
+  }
+
+  .back {
+    opacity: 1;
+    background-image: url(../images/brie.jpg);
   }
 
   img {
