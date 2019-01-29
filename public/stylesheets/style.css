@@ -664,8 +664,8 @@ font-size: 3em;
 
     #home-logo {
       width: 80%;
-      height: 17%;
-      margin-left: 3em;
+      height: 20%;
+      margin-left: 2.3em;
       opacity: 0.9;
       margin-top: -4em;
     }
@@ -734,7 +734,7 @@ font-size: 3em;
 
     .cards-container {
       display: block;
-      margin-left: 1em;
+      margin-left: 2em;
     }
 
     .card-container {
@@ -746,16 +746,19 @@ font-size: 3em;
       width: 250px;
       margin-top:0.5em;
     }
+
     .card {
       height: 300px;
       position: absolute;
       transform-style: preserve-3d;
-      transition: all 1s ease-in-out;
+      transition: all 0.75s linear;
       width: 250px;
     }
+
     .card:hover {
       transform: rotateY(180deg);
     }
+
     .card .side {
       backface-visibility: hidden;
       border-radius: 6px;
