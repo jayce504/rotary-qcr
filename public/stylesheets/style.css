@@ -765,10 +765,10 @@ font-size: 3em;
       backface-visibility: hidden;
       border-radius: 6px;
       text-align: center;
-      height: 100%;
+      height: 300px;
       position: absolute;
       overflow:hidden;
-      width: 100%;
+      width: 250px;
     }
 
     .card .back {
@@ -779,6 +779,8 @@ font-size: 3em;
       text-align: center;
       transform: rotateY(180deg);
       overflow: hidden;
+      height: 300px;
+      width: 250px;
     }
 
 }
