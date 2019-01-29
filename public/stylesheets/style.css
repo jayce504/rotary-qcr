@@ -735,7 +735,7 @@ font-size: 3em;
 
     .cards-container {
       display: block;
-      margin-left: 2em;
+      margin-left: 4em;
     }
 
     .card-container {
@@ -771,7 +771,8 @@ font-size: 3em;
       width: 100%;
     }
 
-    .back {
+    .card .back {
+      backface-visibility: hidden;
       background: #eaeaed;
       color: #0087cc;
       line-height: 150px;
