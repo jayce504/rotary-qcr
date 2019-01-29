@@ -359,70 +359,45 @@ font-size: 3em;
 }
 
 /* card css */
+.cards-container {
+  display: flex;
+}
+
 .card-container {
-  -webkit-perspective: 500px;
-          perspective: 500px;
+  cursor: pointer;
+  height: 300px;
+  perspective: 600;
+  position: relative;
+  width: 250px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
-
-.card-container:hover .card{
-  -webkit-transform: rotateY( 180deg );
-          transform: rotateY( 180deg );
-}
-
 .card {
-  -webkit-transition: -webkit-transform 0.7s;
-          transition: transform 0.7s;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  height: 300px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 0.75s ease-in-out;
+  width: 250px;
 }
-
-.front, .back {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+.card:hover {
+  transform: rotateY(180deg);
 }
-
-.back {
-  -webkit-transform: rotateY( 180deg );
-          transform: rotateY( 180deg );
-}
-
-/*Custom Styles*/
-.cards-container{
- margin-top: 0.5em;
- margin-bottom: 1.5em;
- display: -webkit-flex;
- display: -webkit-box;
- display: -ms-flexbox;
- display: flex;
- -webkit-flex-direction: row;
- -webkit-box-orient: horizontal;
- -webkit-box-direction: normal;
-     -ms-flex-direction: row;
-         flex-direction: row;
--webkit-box-pack: center;
--webkit-justify-content: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-}
-
-.card {
-width: 250px;
-height: 300px;
-margin: 20px;
-}
-
-.front, .back {
-box-shadow: 0 1px 6px 0;
-position: absolute;
-width: 100%;
-top: 0;
-bottom: 0;
-}
-
-.card-text {
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
   text-align: center;
-  font-size: 2.9vh;
-  margin-top: 3em;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
 }
 
 /* mid sized screen settings  */
@@ -490,7 +465,6 @@ bottom: 0;
 
   .cards-container {
     display: flex;
-    margin-left: 1em;
   }
 
   .card-container {
@@ -760,6 +734,7 @@ bottom: 0;
 
     .cards-container {
       display: block;
+      margin-left: 1em;
     }
 
     .card-container {
