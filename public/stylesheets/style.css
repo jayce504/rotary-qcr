@@ -1,5 +1,5 @@
 body {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Arsenal', sans-serif;
 }
 
 a {
@@ -431,7 +431,7 @@ font-size: 3em;
   }
 
   .navbar-nav > li{
-    padding-left:20px;
+    padding-left:10px;
     padding-right:33px;
     color:#eda03c;
   }
@@ -465,6 +465,7 @@ font-size: 3em;
 
   .cards-container {
     display: flex;
+    margin-left: 6em;
   }
 
   .card-container {
@@ -473,8 +474,7 @@ font-size: 3em;
     perspective: 600;
     position: relative;
     width: 250px;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin: 0.5em;
   }
   .card {
     height: 300px;
