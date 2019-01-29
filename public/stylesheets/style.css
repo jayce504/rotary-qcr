@@ -777,6 +777,7 @@ font-size: 3em;
       line-height: 150px;
       text-align: center;
       transform: rotateY(180deg);
+      overflow: visible;
     }
 
 }
