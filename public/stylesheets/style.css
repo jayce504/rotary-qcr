@@ -767,17 +767,17 @@ font-size: 3em;
       text-align: center;
       height: 100%;
       position: absolute;
-      overflow:visible;
+      overflow:hidden;
       width: 100%;
     }
 
-    .card .back {
+    .back {
       background: #eaeaed;
       color: #0087cc;
       line-height: 150px;
       text-align: center;
       transform: rotateY(180deg);
-      overflow: visible;
+      overflow: hidden;
     }
 
 }
