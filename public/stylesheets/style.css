@@ -770,7 +770,8 @@ font-size: 3em;
       overflow: hidden;
       width: 250px;
       text-align: center;
-      font-size: 2em;
+      font-size: 2em
+      padding-top: 100px;
     }
 
     .card .back {
