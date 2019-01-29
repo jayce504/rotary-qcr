@@ -490,6 +490,7 @@ bottom: 0;
 
   .cards-container {
     display: flex;
+    margin-left: 1em;
   }
 
   .card-container {
