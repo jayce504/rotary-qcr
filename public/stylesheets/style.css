@@ -515,6 +515,7 @@ font-size: 3em;
 
   .parallax {
     width: 102%;
+    length: 100%;
   }
 
   .row {
