@@ -754,7 +754,7 @@ font-size: 3em;
       transform-style: preserve-3d;
       transition: all 0.75s linear;
       width: 250px;
-      backface-visibility: visible;
+      backface-visibility: hidden;
     }
 
     .card:hover {
@@ -767,7 +767,7 @@ font-size: 3em;
       text-align: center;
       height: 100%;
       position: absolute;
-      overflow: hidden;
+      overflow:visible;
       width: 100%;
     }
 
