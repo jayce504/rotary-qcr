@@ -507,7 +507,7 @@ font-size: 3em;
 
 /* mobile settings */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 603px) {
 
   img {
     display: block;
@@ -515,7 +515,7 @@ font-size: 3em;
 
   .parallax {
     width: 102%;
-    length: 100%;
+    length: 102%;
   }
 
   .row {
@@ -754,6 +754,7 @@ font-size: 3em;
       transform-style: preserve-3d;
       transition: all 0.75s linear;
       width: 250px;
+      backface-visibility: visible;
     }
 
     .card:hover {
