@@ -781,6 +781,32 @@ font-size: 3em;
       font-size: 2em;
     }
 
+    .card .side:active {
+      backface-visibility: hidden;
+      border-radius: 6px;
+      text-align: center;
+      height: 300px;
+      position: absolute;
+      overflow: hidden;
+      width: 250px;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .card .side:focus {
+      backface-visibility: hidden;
+      border-radius: 6px;
+      text-align: center;
+      height: 300px;
+      position: absolute;
+      overflow: hidden;
+      width: 250px;
+      text-align: center;
+      font-size: 2em;
+    }
+
+
+
     .card .back {
       backface-visibility: hidden;
       background: #eaeaed;
