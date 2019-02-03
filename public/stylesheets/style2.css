@@ -190,10 +190,10 @@ a:hover {
 }
 
 #ariel-charlotte-text {
-color:#fff;;
-text-align: center;
-padding-top: 1%;
-font-size: 3em;
+  color:#fff;;
+  text-align: center;
+  padding-top: 1%;
+  font-size: 3em;
 }
 
 #skyline-small-text {
@@ -363,12 +363,17 @@ font-size: 3em;
 /* card css */
 .cards-container {
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
 }
 
 .card-container {
   cursor: pointer;
   height: 300px;
   perspective: 600;
+  -webkit-perspective: 600px;
+  -o-perspective: 600px;
+  -moz-perspective: 600px;
   position: relative;
   width: 300px;
   margin-left: 9em;
@@ -377,7 +382,12 @@ font-size: 3em;
 .card {
   height: 300px;
   position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transition: all 0.75s ease-in-out;
+  -moz-transition: all 0.75s ease-in-out;
   transition: all 0.75s ease-in-out;
   width: 300px;
   font-size: 2em;
@@ -389,11 +399,20 @@ font-size: 3em;
 }
 
 .card:hover {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
 .card .side {
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   border-radius: 6px;
   text-align: center;
   height: 100%;
@@ -401,12 +420,18 @@ font-size: 3em;
   overflow: hidden;
   width: 100%;
 }
-
-.card .back {
+ .card .back {
+ -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   background: #eaeaed;
   color: #0087cc;
   line-height: 150px;
   text-align: center;
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 /*max sized screen settings*/
@@ -428,6 +453,8 @@ font-size: 3em;
   /* card css */
   .cards-container {
     display: flex;
+    display: -webkit-flex;
+      display: -moz-flex;
     margin-left: 10%;
   }
 
@@ -435,6 +462,9 @@ font-size: 3em;
     cursor: pointer;
     height: 250px;
     perspective: 600;
+    -webkit-perspective: 600px;
+    -o-perspective: 600px;
+    -moz-perspective: 600px;
     position: relative;
     width: 250px;
     margin : 20px;
@@ -443,7 +473,9 @@ font-size: 3em;
   .card {
     height: 250px;
     position: absolute;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    -webkit-transition: all 0.75s ease-in-out;
     transition: all 0.75s ease-in-out;
     width: 250px;
     font-size: 2em;
@@ -520,6 +552,8 @@ font-size: 3em;
 
   .cards-container {
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
     margin: 10px 10%;
   }
 
@@ -534,7 +568,9 @@ font-size: 3em;
   .card {
     height: 220px;
     position: absolute;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    -webkit-transition: all 0.75s ease-in-out;
     transition: all 0.75s ease-in-out;
     width: 200px;
   }
@@ -566,6 +602,8 @@ font-size: 3em;
 @media screen and (max-width: 768px){
   .cards-container {
     display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
     margin: 10px 10%;
   }
 
@@ -573,6 +611,9 @@ font-size: 3em;
     cursor: pointer;
     height: 190px;
     perspective: 600;
+     -webkit-perspective: 600px;
+    -o-perspective: 600px;
+    -moz-perspective: 600px;
     position: relative;
     width: 170px; 
     margin: 10px;
@@ -580,8 +621,10 @@ font-size: 3em;
   .card {
     height: 190px;
     position: absolute;
-    transform-style: preserve-3d;
-    transition: all 0.75s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.75s ease-in-out;
+  transition: all 0.75s ease-in-out;
     width: 150px;
   }
   .card img {
@@ -826,7 +869,12 @@ font-size: 3em;
       cursor: pointer;
       height: 300px;
       perspective: 600;
+       -webkit-perspective: 600px;
+    -o-perspective: 600px;
+    -moz-perspective: 600px;
       display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
       position: relative;
       width: 250px;
       margin-top:0.5em;
@@ -835,17 +883,27 @@ font-size: 3em;
     .card {
       height: 300px;
       position: absolute;
+      -webkit-transform-style: preserve-3d;
       transform-style: preserve-3d;
-      transition: all 0.75s linear;
+      -webkit-transition: all 0.75s ease-in-out;
+      transition: all 0.75s ease-in-out;
       width: 250px;
+      -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
     }
 
     .card:hover {
+       -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -ms-transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
       transform: rotateY(180deg);
     }
 
     .card .side {
+      -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       border-radius: 6px;
       text-align: center;
@@ -858,6 +916,7 @@ font-size: 3em;
     }
 
     .card .side:active {
+      -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       border-radius: 6px;
       text-align: center;
@@ -870,6 +929,7 @@ font-size: 3em;
     }
 
     .card .side:focus {
+      -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       border-radius: 6px;
       text-align: center;
@@ -884,11 +944,16 @@ font-size: 3em;
 
 
     .card .back {
+      -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       background: #eaeaed;
       color: #0087cc;
       line-height: 150px;
       text-align: center;
+      -ms-transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
       transform: rotateY(180deg);
       overflow: hidden;
       height: 300px;
