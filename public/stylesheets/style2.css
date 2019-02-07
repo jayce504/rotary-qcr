@@ -618,8 +618,9 @@ a:hover {
     color: #eda03c;
   }
   .navbar-nav.mr-auto > li {
-    font-size: 10px;
+    font-size: 14px;
     padding: 0 0px;
+    margin-left: 50px;
     color: #eda03c;
   }
 }
