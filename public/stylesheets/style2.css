@@ -187,7 +187,7 @@ a:hover {
 }
 
 #ariel-charlotte-text {
-  color:#fff;;
+  color:#fff;
   text-align: center;
   padding-top: 1%;
   font-size: 3em;
@@ -450,7 +450,7 @@ a:hover {
     background-size: cover;
   }
 }
-@media screen and (min-width: 1460px){
+@media screen and (min-width: 1460px) and (max-width:2059px){
   .parallax {
     margin-top: 0em;
     height: 100%;
@@ -611,7 +611,11 @@ a:hover {
 
 @media screen and (max-width: 1280px) and (min-width: 760px) {
   .navbar-nav > li {
+<<<<<<< HEAD
     font-size: 9px;
+=======
+    font-size: 12px;
+>>>>>>> 13c501df7cfb7f08fd6a30e32aec8e566e625402
     padding: 0 0;
     color: #eda03c;
   }
