@@ -463,11 +463,22 @@ a:hover {
 
   .navbar-nav > li {
     font-size: 20px;
-    padding: 0 60px;
+    padding: 0 30px;
     color: #eda03c;
   }
+
+  #home-logo {
+    margin-left: 34em;
+    height: 20%;
+  }
 }
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1450px){
+  .navbar-nav > li {
+    font-size: 18px;
+    padding: 0 22px;
+    color: #eda03c;
+  }
+
   .parallax {
     margin-top: 0em;
     max-height: 1080px;
@@ -476,6 +487,11 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  #home-logo {
+    margin-left: 30em;
+    height: 18%;
   }
 
   /* card css */
@@ -522,7 +538,7 @@ a:hover {
 
   .parallax {
     margin-top: 0em;
-    height: 100%;
+    height: 860px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -531,14 +547,14 @@ a:hover {
   }
 
   #home-logo {
-    margin-left: 27em;
-    width: 35%;
+    margin-left: 29em;
+    width: 32%;
     height: 28%;
   }
 
   #skyline-button {
-    padding: 1.5%;
-    font-size:2.2vh;
+    padding: 1%;
+    font-size:2.0vh;
   }
 
   .navbar {
@@ -611,26 +627,27 @@ a:hover {
 
 @media screen and (max-width: 1280px) and (min-width: 760px) {
   .navbar-nav > li {
-<<<<<<< HEAD
-    font-size: 9px;
-=======
-    font-size: 12px;
->>>>>>> 13c501df7cfb7f08fd6a30e32aec8e566e625402
+    font-size: 14px;
     padding: 0 0;
     color: #eda03c;
   }
   .navbar-nav.mr-auto > li {
-    font-size: 9px;
+    font-size: 14px;
     padding: 0 0px;
     margin-left: 50px;
     color: #eda03c;
   }
   #home-logo {
-    padding-left: -40em;
+    margin-left: 27em;
+    height: 20%;
+  }
+  #skyline-button {
+    padding: 1%;
+    font-size:1.75vh;
   }
   .parallax {
     width: 100%;
-    height: 120%;
+    height: 860px;
   }
 }
 @media screen and (max-width: 1280px) and (min-width: 960px) {
