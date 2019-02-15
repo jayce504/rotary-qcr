@@ -65,7 +65,6 @@ a:hover {
 
 .parallax {
   margin-top: 0em;
-  height: 1080px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -436,18 +435,25 @@ a:hover {
 @media screen and (min-width: 2060px){
   .navbar-nav > li {
     font-size: 22px;
-    padding: 0 80px;
+    padding: 0 90px;
     color: #eda03c;
   }
 
   .parallax {
     margin-top: 0em;
-    height: 1880px;
+    height:1840px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  #home-logo {
+    margin-top: 10em;
+    margin-left: 55em;
+    height: 17%;
+    width: 30%;
   }
 }
 @media screen and (min-width: 1460px) and (max-width:2059px){
@@ -462,13 +468,13 @@ a:hover {
   }
 
   .navbar-nav > li {
-    font-size: 20px;
-    padding: 0 30px;
+    font-size: 16px;
+    padding: 0 20px;
     color: #eda03c;
   }
 
   #home-logo {
-    margin-left: 34em;
+    margin-left: 38em;
     height: 20%;
   }
 }
