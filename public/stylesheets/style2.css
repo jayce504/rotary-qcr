@@ -88,10 +88,10 @@ a:hover {
 
 
 /*max sized screen settings*/
-@media screen and (min-width: 2383px){
+@media screen and (min-width: 2060px){
   .navbar-nav > li {
     font-size: 22px;
-    padding: 0 90px;
+    padding: 0 70px;
     color: #eda03c;
   }
 
