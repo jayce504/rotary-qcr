@@ -1261,7 +1261,7 @@ a:hover {
 
   #home-logo {
     width: 80%;
-    height: 13%;
+    height: 17%;
     margin-left: 2.3em;
     opacity: 0.9;
     margin-top: -2em;
@@ -1270,7 +1270,7 @@ a:hover {
   #skyline-button {
     font-size: 1.1em;
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-right: 20%;
     padding: 3%;
   }
@@ -1278,13 +1278,13 @@ a:hover {
   .home-button{
     font-size: 1.3em;
     margin-top: 10%;
-    margin-left: 18%;
+    margin-left: 21%;
     margin-right: 13%;
     padding: 2%;
   }
 
   #map-button {
-    margin-left: 4.5em;
+    margin-left: 6em;
   }
 
   #projects-button {
@@ -1488,7 +1488,7 @@ a:hover {
     .cards-container {
       display: block;
       margin : 0px 0px;
-      margin-left: -25px;
+      margin-left: 0px;
     }
 
     .card-container {
