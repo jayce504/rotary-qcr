@@ -1034,12 +1034,11 @@ a:hover {
   }
 
   #more-info-button {
-    margin-left: 37em;
+    margin-left: 34em;
     font-size: 1.2em;
     color: #f6b448;
     background-color: #2c4e9f;
     border: 0.25em solid #2c4e9f;
-
   }
 
   .form-control {
