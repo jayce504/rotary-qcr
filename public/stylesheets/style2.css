@@ -197,10 +197,10 @@ a:hover {
     -moz-backface-visibility: hidden;
     border-radius: 6px;
     text-align: center;
-    height: 100%;
+    height: 400px;
     position: absolute;
     overflow: hidden;
-    width: 100%;
+    width: 400px;
     padding-top: 15%;
   }
    .card .back {
@@ -324,10 +324,10 @@ a:hover {
   .card-container {
     cursor: pointer;
     height: 400px;
-    perspective: 400;
-    -webkit-perspective: 400px;
-    -o-perspective: 400px;
-    -moz-perspective: 400px;
+    perspective: 600;
+    -webkit-perspective: 600px;
+    -o-perspective: 600px;
+    -moz-perspective: 600px;
     position: relative;
     width: 400px;
     margin-left: 11em;
@@ -370,10 +370,10 @@ a:hover {
     -moz-backface-visibility: hidden;
     border-radius: 6px;
     text-align: center;
-    height: 100%;
+    height: 400px;
     position: absolute;
     overflow: hidden;
-    width: 100%;
+    width: 400px;
     padding-top: 15%;
   }
    .card .back {
@@ -571,10 +571,10 @@ a:hover {
     -moz-backface-visibility: hidden;
     border-radius: 6px;
     text-align: center;
-    height: 100%;
+    height: 300px;
     position: absolute;
     overflow: hidden;
-    width: 100%;
+    width: 300px;
     padding-top: 15%;
   }
    .card .back {
@@ -778,10 +778,10 @@ a:hover {
     -moz-backface-visibility: hidden;
     border-radius: 6px;
     text-align: center;
-    height: 100%;
+    height: 250px;
     position: absolute;
     overflow: hidden;
-    width: 100%;
+    width: 250px;
     padding-top: 15%;
   }
    .card .back {
@@ -985,10 +985,10 @@ a:hover {
     -moz-backface-visibility: hidden;
     border-radius: 6px;
     text-align: center;
-    height: 100%;
+    height: 250px;
     position: absolute;
     overflow: hidden;
-    width: 100%;
+    width: 250px;
     padding-top: 15%;
   }
    .card .back {
@@ -1190,10 +1190,10 @@ a:hover {
     -moz-backface-visibility: hidden;
     border-radius: 6px;
     text-align: center;
-    height: 100%;
+    height: 350px;
     position: absolute;
     overflow: hidden;
-    width: 100%;
+    width: 350px;
     padding-top: 15%;
   }
    .card .back {
