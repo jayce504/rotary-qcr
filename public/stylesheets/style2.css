@@ -1254,25 +1254,33 @@ a:hover {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 768px){
-
-}
-/* mid sized screen settings  */
-
-@media screen and (max-width: 1280px) {
-
- 
-}
 
 /* mobile settings */
 
 @media screen and (max-width: 603px) {
 
   #home-logo {
-    width: 30%;
-    height: 22%;
-    opacity: 0.95;
-    margin-left: 10em;
+    width: 80%;
+    height: 13%;
+    margin-left: 2.3em;
+    opacity: 0.9;
+    margin-top: -2em;
+  }
+ 
+  #skyline-button {
+    font-size: 1.1em;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 3%;
+  }
+
+  .home-button{
+    font-size: 1.3em;
+    margin-top: 10%;
+    margin-left: 18%;
+    margin-right: 13%;
+    padding: 2%;
   }
 
   img {
@@ -1281,7 +1289,7 @@ a:hover {
 
   .parallax {
     width: 102%;
-    height: 1000px;
+    height: 900px;
   }
 
   .row {
@@ -1420,34 +1428,9 @@ a:hover {
       font-size: 1vw;
     }
 
-    #home-logo {
-      width: 80%;
-      height: 20%;
-      margin-left: 2.3em;
-      opacity: 0.9;
-      margin-top: -4em;
-    }
-
     .button-container {
       margin-top: 2em;
       margin-left: 0.8em;
-    }
-
-    #skyline-button {
-      font-size: 1.5em;
-      margin-top: 15%;
-      margin-left: 20%;
-      margin-right: 20%;
-      padding: 2%;
-      color: black;
-    }
-
-    .home-button{
-      font-size: 1.3em;
-      margin-top: 10%;
-      margin-left: 22%;
-      margin-right: 13%;
-      color: black;
     }
 
     #projects-button {
@@ -1476,10 +1459,11 @@ a:hover {
       background-color: #a49aba;
       margin-left: 10%;
       margin-right: 10%;
-      margin-top: -8%;
+      margin-top: -20%;
       padding-top: 3%;
       padding-bottom: 5%;
       opacity: 0.9;
+      font-size: 0.5em;
     }
 
     .more-info-heading {
