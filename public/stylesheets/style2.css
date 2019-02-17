@@ -1287,6 +1287,12 @@ a:hover {
     margin-left: 4.5em;
   }
 
+  #projects-button {
+    background-color: #2c4e9f;
+    font-size: 1em;
+    margin-left: 0em;
+  }
+
   img {
     display: block;
   }
@@ -1438,11 +1444,12 @@ a:hover {
     }
 
     #projects-button {
-      font-size: 1.6em;
-      margin-top: 20%;
-      margin-left: 21%;
-      margin-right: 15%;
-      color: black;
+      font-size: 1em;
+      padding: 3%;
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-right: 10%;
+      color: white;
     }
 
     .text-box {
