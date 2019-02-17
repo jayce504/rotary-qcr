@@ -844,6 +844,7 @@ a:hover {
   }
 }
 
+/* ipad pro size profile */
 @media screen and (max-width: 1457px) and (min-width: 764px) {
   nav {
     color: #eda03c;
@@ -889,7 +890,7 @@ a:hover {
 
   #home-logo {
     margin-top: 3em;
-    margin-left:28em;
+    margin-left:30em;
     height: 20%;
     width: 33%;
   }
