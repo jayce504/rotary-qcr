@@ -141,6 +141,7 @@ a:hover {
     color: white;
     padding: 2%;
   }
+
   /* card css */
   .cards-container {
     display: flex;
@@ -151,10 +152,10 @@ a:hover {
   .card-container {
     cursor: pointer;
     height: 400px;
-    perspective: 600;
-    -webkit-perspective: 600px;
-    -o-perspective: 600px;
-    -moz-perspective: 600px;
+    perspective: 400;
+    -webkit-perspective: 400px;
+    -o-perspective: 400px;
+    -moz-perspective: 400px;
     position: relative;
     width: 400px;
     margin-left: 11em;
@@ -639,34 +640,34 @@ a:hover {
 @media screen and (max-width: 1458px){
   nav {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar-nav > li {
     font-size: 16px;
     padding: 0 35px;
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar-nav {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar-brand {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .mr-auto {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .parallax {
@@ -788,6 +789,8 @@ a:hover {
     backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     background: #eaeaed;
+    width: 100%;
+    height: 100%;
     color: #0087cc;
     line-height: 150px;
     text-align: center;
@@ -844,34 +847,34 @@ a:hover {
 @media screen and (max-width: 1280px) and (min-width: 764px) {
   nav {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar-nav > li {
     font-size: 16px;
     padding: 0 45px;
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar-nav {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar-brand {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .mr-auto {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .parallax {
@@ -1049,34 +1052,34 @@ a:hover {
 @media screen and (max-width: 1280px) and (min-width: 960px) {
   nav {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar-nav > li {
     font-size: 14px;
     padding: 0 10px;
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar-nav {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .navbar {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;;
   }
 
   .navbar-brand {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .mr-auto {
     color: #eda03c;
-    background-color: #325CB3;
+    background-color: #2c4e9f;
   }
 
   .parallax {
