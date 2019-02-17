@@ -32,7 +32,8 @@ a:hover {
 }
 
 .skyline-3 {
-  background-image: url("../images/skyline-3.jpeg");
+  background-image:
+        url("../images/skyline-3.jpeg");
 }
 
 .disaster {
@@ -464,12 +465,47 @@ a:hover {
     background-color: #2c4e9f;
   }
 
-  .parallax {
+  .parallax-1 {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/skyline.jpg');
     margin-top: 0em;
     height:1000px;
     width: 100%;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/skyline-3.jpeg');
+    margin-top: 0em;
+    height:1000px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-3 {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/skyline-2.jpg');
+    margin-top: 0em;
+    height:1000px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -493,18 +529,18 @@ a:hover {
     margin-top: 0em;
     font-size: 0.5em;
     border: solid 1px gray;
-    background-color: gray;
+    background-color: #e5e5e5;
     color: black;
     text-align: center;
-    margin-left: 45em;
-    margin-right: 45em;
+    margin-left: 70em;
+    margin-right: 70em;
     padding: 1%;
   }
 
   .home-button {
     background-color: #2c4e9f;
     border: solid 1px #2c4e9f;
-    margin-left: 44em;
+    margin-left: 43em;
     margin-top: 2em;
     font-size: 1.2em;
     color: white;
@@ -642,7 +678,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 1458px){
+@media screen and (max-width: 1459px){
   nav {
     color: #eda03c;
     background-color: #2c4e9f;
