@@ -107,7 +107,7 @@ a:hover {
 
   #home-logo {
     margin-top: 10em;
-    margin-left: 55em;
+    margin-left: 60em;
     height: 17%;
     width: 30%;
   }
@@ -261,7 +261,7 @@ a:hover {
   .navbar-link {
     color: #eda03c;
   }
-  
+
   .navbar-nav > li {
     font-size: 20px;
     padding: 0 70px;
@@ -1266,7 +1266,7 @@ a:hover {
     opacity: 0.9;
     margin-top: -2em;
   }
- 
+
   #skyline-button {
     font-size: 1.1em;
     margin-top: 15%;
@@ -1599,7 +1599,7 @@ a:hover {
       display: -webkit-flex;
       display: -moz-flex;
     }
-  
+
     .card-container {
       cursor: pointer;
       height: 250px;
@@ -1612,7 +1612,7 @@ a:hover {
       margin-left: 4em;
       margin-top: 1em;
     }
-  
+
     .card {
       height: 250px;
       position: absolute;
@@ -1626,12 +1626,12 @@ a:hover {
       width: 250px;
       font-size: 1.7em;
     }
-  
+
     .card img {
       width: 250px;
       height: 250px;
     }
-  
+
     .card:hover {
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
@@ -1642,7 +1642,7 @@ a:hover {
       -o-transform: rotateY(180deg);
       transform: rotateY(180deg);
     }
-  
+
     .card .side {
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
@@ -1672,5 +1672,5 @@ a:hover {
       transform: rotateY(180deg);
       padding-top: 0%;
     }
-  
+
 }
