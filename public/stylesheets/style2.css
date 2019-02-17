@@ -39,28 +39,6 @@ a:hover {
   background-image: url('../images/disaster.jpg');
 }
 
-.service {
-  background-image: url('../images/service.jpg');
-}
-
-.manhattan {
-  background-image: url('../images/manhattan.jpg');
-}
-
-.speaker {
-  background-image: url('../images/speaker.jpg');
-}
-
-.event {
-  background-image: url('../images/event.jpg');
-}
-
-.resources {
-  background-image: url('../images/resources.jpg');
-  height: 50em;
-  width: 137em;
-}
-
 #home-join-us {
   background-image: url("../images/home-join-us.jpg");
   margin-top: 10%;
@@ -1293,7 +1271,7 @@ a:hover {
   }
 
   #map-button {
-    margin-left: 5em;
+    margin-left: 6em;
   }
 
   #projects-button {
