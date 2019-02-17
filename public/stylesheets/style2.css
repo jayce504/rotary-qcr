@@ -1130,6 +1130,10 @@ a:hover {
     padding: 1%;
   }
 
+  #map-button {
+    margin-left: 30em;
+  }
+
   #projects-button {
     font-size: 1em;
     margin-left: 21em;
