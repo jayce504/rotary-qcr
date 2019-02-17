@@ -93,7 +93,7 @@ a:hover {
 
     .navbar-nav > li {
       font-size: 22px;
-      padding: 0 70px;
+      padding: 0 60px;
       color: #eda03c;
     }
 
@@ -107,12 +107,12 @@ a:hover {
       background-size: cover;
     }
 
-    /* #home-logo {
+    #home-logo {
       margin-top: 10em;
       margin-left: 60em;
       height: 17%;
       width: 30%;
-    } */
+    }
 
     .text-div {
       margin-top: 0em;
