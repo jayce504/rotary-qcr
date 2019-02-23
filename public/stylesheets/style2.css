@@ -1067,7 +1067,7 @@ a:hover {
 
   .parallax {
     margin-top: 0em;
-    height:780px;
+    height:680px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -1078,7 +1078,7 @@ a:hover {
   #home-logo {
     margin-top: 3em;
     margin-left:28em;
-    height: 20%;
+    height: 25%;
     width: 30%;
   }
 
