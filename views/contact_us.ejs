@@ -9,14 +9,14 @@
     <form action="/send-email" method="post">
         <div class="form-group more-info-form">
           <input type="string" class="form-control" id="name form-control" placeholder="Name" name="name" required>
-          <input type="string" class="form-control" id="address form-control" placeholder="Address" name="address" required>
           <input type="string" class="form-control" id="phoneNumber form-control" placeholder="Phone Number" name="phoneNumber" required>
           <input type="email" class="form-control" id="email form-control" placeholder="Email Address" name="email" required>
-          <!-- <select name="interest" class="form-control" placeholder="Type of Interest" id="interest" required>
-            <option value="Type of Interest">Desired Role</option>
-            <option value="Student">Student</option>
-            <option value="Host">Host</option>
-          </select> -->
+          <select name="best_method" class="form-control" placeholder="Best Way to Contact You" id="best_method" required>
+            <option value="They Didn't Pick One">Best Way to Contact You</option>
+            <option value="Email">Email</option>
+            <option value="Text">Text</option>
+            <option value="Carrier Pigeon">Carrier Pigeon (who are we to judge?)</option>
+          </select>
         </div>
           <button type="submit" class="btn" id='more-info-button'>Submit</button>
       </form>

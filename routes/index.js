@@ -62,7 +62,7 @@ router.post("/send-email", function(req, res) {
     secure: true,
     auth: {
       user: "shudson5523@gmail.com",
-      pass: "Coolness5523"
+      pass: "Coolness@5523!"
     }
   });
   let mailOptions = {
@@ -78,15 +78,14 @@ router.post("/send-email", function(req, res) {
       "<b>Name: </b>" +
       req.body.name +
       "<br>" +
-      "<b>Address: </b>" +
-      req.body.address +
-      "<br>" +
       "<b>Phone Number: </b>" +
       req.body.phoneNumber +
       "<br>" +
       "<b>Email: </b>" +
       req.body.email +
-      "<br>"
+      "<br>" +
+      "<b>Best way to contact them: </b>" +
+      req.body.best_method
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
