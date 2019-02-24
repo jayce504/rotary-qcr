@@ -1201,8 +1201,8 @@ a:hover {
   }
 
   .navbar-nav > li {
-    font-size: 14px;
-    padding: 0 10px;
+    font-size: 16px;
+    padding: 0 30px;
     color: #eda03c;
     background-color: #2c4e9f;
   }
@@ -1229,7 +1229,6 @@ a:hover {
 
   .parallax {
     margin-top: 0em;
-    height: 1220px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -1238,25 +1237,21 @@ a:hover {
   }
 
   #home-logo {
-    margin-top: 3em;
-    margin-left: 33%;
-    margin-right: 33%;
-    height: 15%;
-    width: 33%;
+    margin-left: 28em;
+    height: 25%;
+    width: 30%;
   }
 
   #skyline-button {
-    padding: 1%;
-    margin-top: 3%;
-    margin-left: 38%;
     margin-right: 38%;
+    margin-left: 41%;
     color: white;
     font-size: 1.2em;
   }
 
   .text-div {
     margin-top: 0em;
-    font-size: 0.3em;
+    font-size: 0.2em;
     border: solid 1px gray;
     background-color: gray;
     color: black;
@@ -1269,7 +1264,7 @@ a:hover {
   .home-button {
     background-color: #2c4e9f;
     border: solid 1px #2c4e9f;
-    margin-left: 20em;
+    margin-left: 27em;
     margin-top: 2em;
     font-size: 1.2em;
     color: white;
@@ -1277,37 +1272,38 @@ a:hover {
   }
 
   #map-button {
-    margin-left: 22em;
+    margin-left: 29em;
   }
 
   #projects-button {
     font-size: 1em;
-    margin-left: 21em;
+    margin-left: 31em;
   }
 
   /* card css */
   .cards-container {
-    display: block;
-    display: -webkit-block;
-    display: -moz-block;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
   }
 
   .card-container {
     cursor: pointer;
-    height: 350px;
-    perspective: 350;
-    -webkit-perspective: 350px;
-    -o-perspective: 350px;
-    -moz-perspective: 350px;
+    height: 200px;
+    perspective: 200;
+    -webkit-perspective: 200px;
+    -o-perspective: 200px;
+    -moz-perspective: 200px;
     position: relative;
-    width: 350px;
-    margin-left: 20em;
+    width: 200px;
+    margin-left: 6em;
     margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   .card {
-    height: 350px;
-    position: absolute;
+    height: 200px;
+    position: flex;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -1315,13 +1311,13 @@ a:hover {
     -webkit-transition: all 0.75s ease-in-out;
     -moz-transition: all 0.75s ease-in-out;
     transition: all 0.75s ease-in-out;
-    width: 350px;
-    font-size: 3em;
+    width: 200px;
+    font-size: 1.5em;
   }
 
   .card img {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
   }
 
   .card:hover {
@@ -1341,10 +1337,10 @@ a:hover {
     -moz-backface-visibility: hidden;
     border-radius: 6px;
     text-align: center;
-    height: 350px;
+    height: 200px;
     position: absolute;
     overflow: hidden;
-    width: 350px;
+    width: 200px;
     padding-top: 15%;
   }
   .card .back {
@@ -1390,7 +1386,7 @@ a:hover {
   }
 
   #more-info-button {
-    margin-left: 37em;
+    margin-left: 31em;
     font-size: 1.2em;
     color: #f6b448;
     background-color: #2c4e9f;
