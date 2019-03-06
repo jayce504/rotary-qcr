@@ -29,11 +29,15 @@ router.get("/mission", function(req, res, next) {
 });
 
 router.get("/rotary_intro", function(req, res, next) {
-  res.render("what_is_rotary", { title: "Go on..." });
+  res.render("what_is_rotary", { title: "What is Rotary?" });
 });
 
 router.get("/membership_process", function(req, res, next) {
-  res.render("membership_process", { title: "Go on..." });
+  res.render("membership_process", { title: "Membership Process" });
+});
+
+router.get("/about-the-speaker", function(req, res, next) {
+  res.render("about_the_speaker", { title: "About The Speaker" });
 });
 
 router.get("/members", ensureAuthenticated, (req, res) =>

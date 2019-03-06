@@ -1222,6 +1222,17 @@ a:hover {
     width:50%;
     margin: auto;
   }
+
+  .speaker-profile-div {
+    margin-top: 0em;
+    font-size: 0.2em;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    color: black;
+    text-align: justify;
+    margin-left: 1em;
+    padding: 1%;
+  }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 856px) {
