@@ -48,15 +48,15 @@ router.get("/members", ensureAuthenticated, (req, res) =>
 );
 
 router.get("/resources", function(req, res, next) {
-  res.render("resources", { title: "Members" });
+  res.render("resources", { title: "Resources" });
 });
 
 router.get("/contact", function(req, res, next) {
-  res.render("contact_us", { title: "Members" });
+  res.render("contact_us", { title: "Contact Us" });
 });
 
 router.get("/this-week", function(req, res, next) {
-  res.render("this-week", { title: "Members" });
+  res.render("this-week", { title: "This Week" });
 });
 
 router.post("/send-email", function(req, res) {
