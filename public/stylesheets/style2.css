@@ -413,9 +413,20 @@ a:hover {
   }
 
   .speaker_image {
-    height:20%;
-    width:15%;
+    height:60%;
+    width:50%;
     margin: auto;
+  }
+
+  .speaker-profile-div {
+    margin-top: 0em;
+    font-size: 0.2em;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    color: black;
+    text-align: justify;
+    margin-left: 1em;
+    padding: 1%;
   }
 }
 
@@ -685,11 +696,22 @@ a:hover {
     padding-top: 2%;
   }
 
-  .speaker_image {
-    height:20%;
-    width:15%;
-    margin: auto;
-  }
+  .  .speaker_image {
+      height:60%;
+      width:50%;
+      margin: auto;
+    }
+
+    .speaker-profile-div {
+      margin-top: 0em;
+      font-size: 0.2em;
+      border: solid 1px lightgray;
+      background-color: lightgray;
+      color: black;
+      text-align: justify;
+      margin-left: 1em;
+      padding: 1%;
+    }
 }
 
 @media screen and (max-width: 1459px) {
@@ -952,9 +974,20 @@ a:hover {
   }
 
   .speaker_image {
-    height:20%;
-    width:15%;
+    height:60%;
+    width:50%;
     margin: auto;
+  }
+
+  .speaker-profile-div {
+    margin-top: 0em;
+    font-size: 0.2em;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    color: black;
+    text-align: justify;
+    margin-left: 1em;
+    padding: 1%;
   }
 }
 
@@ -1879,6 +1912,23 @@ a:hover {
     width: 16em;
     height: 10em;
     display: block;
+  }
+
+  .speaker_image {
+    height:60%;
+    width:50%;
+    margin: auto;
+  }
+
+  .speaker-profile-div {
+    margin-top: 0em;
+    font-size: 0.2em;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    color: black;
+    text-align: justify;
+    margin-left: 1em;
+    padding: 1%;
   }
 }
 @media screen and (max-width: 325px) {
