@@ -15,8 +15,6 @@ const session = require('express-session');
 const mongoose = require('mongoose');
 const passport = require('passport');
 
-var enforce = require('express-sslify');
-
 
 // Passport Config
 require('./config/passport')(passport);
@@ -38,7 +36,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //Force SSL
-app.use(enforce.HTTPS());
 
 
 // Express session
