@@ -1,6 +1,7 @@
 <html>
 <head>
   <%- include partials/header.ejs %>
+  <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
 </head>
     <div class="more-info-heading">
         <h2>Reach Out</h2>
@@ -17,8 +18,32 @@
             <option value="Text">Text</option>
             <option value="Carrier Pigeon">Carrier Pigeon (who are we to judge?)</option>
           </select>
-        </div>
+          </div>
           <button type="submit" class="btn" id='more-info-button'>Submit</button>
       </form>
+      <script>
+       // when form is submit
+    $('#comment_form').submit(function() {
+        // we stoped it
+        event.preventDefault();
+        // needs for recaptacha ready
+        grecaptcha.ready(function() {
+            // do request for recaptcha token
+            // response is promise with passed token
+            grecaptcha.execute('6LfyrZUUAAAAAGISIs8Fg4n4frmdqo0ZT7pDQiEq', {action: '/send-email'}).then(function(token) {
+                // add token to form
+                $('#comment_form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+                    $.post("form.php",{token: token}, function(result) {
+                            console.log(result);
+                            if(result.success) {
+                                    alert('Thanks for posting comment.')
+                            } else {
+                                    alert('You are spammer ! Get the @$%K out.')
+                            }
+                    });
+            });;
+        });
+  });
+  </script>
 <%- include partials/footer.ejs %>
 </html>
