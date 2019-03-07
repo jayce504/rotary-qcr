@@ -15,7 +15,7 @@ const session = require('express-session');
 const mongoose = require('mongoose');
 const passport = require('passport');
 
-var secure = require('ssl-express-www');
+// var secure = require('ssl-express-www');
 
 // Passport Config
 require('./config/passport')(passport);
@@ -37,7 +37,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //SSL Forcer
-app.use(secure);
+// app.use(secure);
 
 // Express session
 app.use(
