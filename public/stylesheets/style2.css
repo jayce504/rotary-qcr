@@ -498,8 +498,8 @@ a:hover {
     background-color: gray;
     color: black;
     text-align: center;
-    margin-left: 45em;
-    margin-right: 45em;
+    margin-left: 60em;
+    margin-right: 60em;
     padding: 1%;
   }
 
@@ -709,7 +709,7 @@ a:hover {
       background-color: lightgray;
       color: black;
       text-align: justify;
-      margin-left: 1em;
+      margin-left: 2em;
       padding: 1%;
     }
 }
